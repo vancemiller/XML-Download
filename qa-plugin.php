@@ -18,3 +18,9 @@ if (!defined('QA_VERSION')) {
 	exit;
 }
 
+qa_register_plugin_module(
+	'page',
+	'qa-xml-download-page.php',
+	'qa_xml_download_page',
+	'XML Download Page'
+);
