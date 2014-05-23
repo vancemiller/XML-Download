@@ -1,0 +1,1628 @@
+<?xml version="1.0"?>
+<!--This is a backup from Fri, 23 May 2014 15:40:04 -0400-->
+<questions><question><title>points off for complicated Kara program?</title><content><![CDATA[<p>
+	Tim Lin Wu asks</p>
+<blockquote>
+	<p>
+		I have completed the Checkerboard Assignment. However, my solution is quite more complex than the solutions given. The only upside to my solution is that even if the width is an even number, it doesn't crash, it just makes straight columns of clovers. I was wondering if I would get points off for the more roundabout/complex solution. Is the assignment asking for a more simple solution than the solutions given by the program?</p>
+</blockquote>]]></content><category>assn1 (27 Aug)</category></question><question><title>How many clovers can you lay down in the busy beaver problem?</title><content><![CDATA[<p>Remember, the key is to lay down the clovers and still terminate the program without crashing.  I was able to get 14 with a single state for Kara and 47 with two states for Kara. Can you do better?</p>]]></content><category>assn1 (27 Aug)</category></question><question><title>Induction 9: Can you show that 2^n &lt; n! &lt; n^n?</title><content><![CDATA[Prove that for all integers $n&gt;3[/latex] we have [latex]2^n&lt;n!&lt;n^n$.]]></content><category>assn5 (24Oct)</category></question><question><title>What did Abe Lincoln say?</title><content><![CDATA[<p>Translate "You can fool some of the people all of the time and all of the people some of the time, but you cannot fool all of the people all of the time."  into logical notation, negate it, and translate back into English.  Let P be the set of all people, T the set of all times,  and f(x,t) be the predicate, "You can fool person x at time t."</p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>In how many ways can you orient a polyhedral solid?</title><content><![CDATA[<p>In how many different ways can you place a cube face-down onto a face-sized square on a table?  Assume that the corners are different colors, so you can distinguish rotations of the face.  What about the other <a title="the five platonic solids have identical faces" href="http://en.wikipedia.org/wiki/Platonic_solid">Platonic solids</a>: the tetrahedron, octahedron, dodecahedron, and icosahedron?</p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>Induction 27: Can you prove the Cauchy-Schwartz inequality by induction?</title><content><![CDATA[<p>Prove the Cauchy-Schwartz inequality by induction: Given two sequences of reals, $(a_1, a_2, a_3 \dots a_n)[/latex] and [latex](b_0, b_1, b_2 \dots b_n)[/latex], show that [latex]\left(\sum_{1\le i\le n} a_ib_i\right)^2 \le \bigl(\sum_{1\le j\le n} a_j^2\bigr)\bigl(\sum_{1\le k\le n} b_k^2\bigr).$</p>]]></content><category>assn5 (24Oct)</category></question><question><title>Determine the tribes of Nomanisan2?</title><content><![CDATA[On Nomanisan Island, the natives communicate only person to person. Each inhabitant belong to one of two tribes: T or F.  When two people from the same tribe communicate, they tell the truth, but when two people from different tribes communicate, they lie.
+You meet 3 inhabitants,  denoted A, B, C, &hellip;, and you ask them to talk about who is from what tribe.  You observe these statements: 
+A to B: C is from tribe F  if and only if  B is from tribe F.
+B to C: C is from tribe F  if and only if  A is from tribe T.
+C to A: A is from tribe T  and  B is from F.
+Write in notation what you learn from each statement.
+  For example, from A to B: P, you learn (A&harr;B)&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+Who is from tribe T, and who from F?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Determine the tribes of Nomanisan3?</title><content><![CDATA[On Nomanisan Island, the natives communicate only person to person. Each inhabitant belong to one of two tribes: T or F.  When two people from the same tribe communicate, they tell the truth, but when two people from different tribes communicate, they lie.
+You meet 3 inhabitants,  denoted A, B, C, &hellip;, and you ask them to talk about who is from what tribe.  You observe these statements: 
+A to B: C is from tribe T  and  B is from F.
+B to C: A is from tribe F  or  C from T.
+C to A: B is from tribe F  and  A is from T.
+Write in notation what you learn from each statement.
+  For example, from A to B: P, you learn (A&harr;B)&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+Who is from tribe T, and who from F?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Identify the knights and knaves of Smullyan3?</title><content><![CDATA[Every native of Smullyan Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. You meet 3 natives, denoted A, B, C,&hellip;. The first 2 of them state:
+ 
+A: C is a knight or B is a knight.
+B: A is a knave and C is a knave.
+Write in notation what you learn from each statement.  You can use <em>A</em> to mean A is a knight, so <em>&not;A</em> means A is a knave.
+  For example, if A states P, you learn A&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+ Who are knights and who are knaves?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Can you determine knights from knaves?</title><content><![CDATA[There is an island, often visited by Raymond Smullyan, in which certain inhabitants called "knights" always tell the truth and others called "knaves" always lie.  On this island, every inhabitant is either a knight or a knave.
+In the problem there are 5 inhabitants: A,B,C,D &amp; E. The first 4 of them make a statement.
+<p style="padding-left: 30px">A: E is a knave if and only if C is a knight.
+B: If D is a knave, then A is a knight.
+C: A is a knave if and only if B is a knight.
+D: If A is a knave, then E is a knave.</p>
+Write down what you learn from each statement in logical notation. Use <em>A</em> as a True or False variable to mean that inhabitant A is a knight.  Thus, if A says statement P, we would know <em>A iff P</em>, or  <em>A?(P)</em>   (You may want to bookmark this <a title="page of math symbols" href="https://comp283f13.web.unc.edu/146-2/" target="_blank">page of math symbols</a> to copy symbols from.)
+Determine who is a knight  and who is a knave so that what we learn from each statement is true.]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Identify the knights and knaves of Smullyan4?</title><content><![CDATA[Every native of Smullyan Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. You meet 3 natives, denoted A, B, C,&hellip;. The first 2 of them state:
+ 
+A: B is a knight or C is a knight.
+B: C is a knight, if and only if A is a knight.
+Write in notation what you learn from each statement.  You can use <em>A</em> to mean A is a knight, so <em>&not;A</em> means A is a knave.
+  For example, if A states P, you learn A&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+ Who are knights and who are knaves?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Identify the knights and knaves of Smullyan5?</title><content><![CDATA[Every native of Smullyan Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. You meet 4 natives, denoted A, B, C,&hellip;. The first 3 of them state:
+ 
+A: B is a knave or C is a knight.
+B: D is a knave, if and only if C is a knight.
+C: D is a knave and B is a knave.
+Write in notation what you learn from each statement.  You can use <em>A</em> to mean A is a knight, so <em>&not;A</em> means A is a knave.
+  For example, if A states P, you learn A&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+ Who are knights and who are knaves?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Identify the knights and knaves of Smullyan8?</title><content><![CDATA[Every native of Smullyan Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. You meet 4 natives, denoted A, B, C,&hellip;. The first 3 of them state:
+ 
+A: If B is a knight, then D is a knight.
+B: C is a knight or D is a knight.
+C: If A is a knave, then D is a knight.
+Write in notation what you learn from each statement.  You can use <em>A</em> to mean A is a knight, so <em>&not;A</em> means A is a knave.
+  For example, if A states P, you learn A&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+ Who are knights and who are knaves?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Identify the knights and knaves of Smullyan2?</title><content><![CDATA[Every native of Smullyan Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. You meet 3 natives, denoted A, B, C,&hellip;. The first 2 of them state:
+ 
+A: B is a knight or C is a knight.
+B: A is a knight, if and only if C is a knight.
+Write in notation what you learn from each statement.  You can use <em>A</em> to mean A is a knight, so <em>&not;A</em> means A is a knave.
+  For example, if A states P, you learn A&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+ Who are knights and who are knaves?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Identify the knights and knaves of Raymond10?</title><content><![CDATA[On Raymond Island, "knights" always tell the truth, "knaves" always lie, and "normals" sometimes tell the truth and sometimes lie. You meet 3 natives, denoted A, B, C,&hellip;. At least one is a knight, and at least one is a knave.  They state:
+ 
+A: B is a knave  and  C is a knight.
+B: If A is a knave, then  C is a knight.
+C: A is a knight  and  B is a knave.
+ Who are knights, who are knaves, and who are normals?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>How do I write this as a quantified expression?</title><content><![CDATA[<p>(1 – 16) Let <em>B(x,y)</em> be the statement “<em>student x attended basketball game y</em>,” where the domain for <em>x</em> is the set of all students in this class and the domain for <em>y </em>is the set of all basketball games this season.   Write the logical expression – using nested quantifiers – for each sentence below.</p>
+<p>If the sentence contains negation, write <strong>two</strong> expressions – one with the negation sign just in front of the quantifiers, the other with the negation sign just in front of the predicate.  Also, some answers may occur more than once.</p>
+<p><strong><em>1.</em></strong> Not every student from this class attended a basketball game this season.</p>
+<p><strong><em>2.</em></strong> Every student from this class attended a basketball game this season.</p>
+<p><strong><em>3.</em></strong> Every student in this class missed every game this season.</p>
+<p><strong><em>4.</em></strong> A student from this class attended a basketball game this season.</p>
+<p><strong><em>5.</em></strong> Not every student from this class attended every basketball game this season.</p>
+<p><strong><em>6.</em></strong> Every game was attended by someone from this class.</p>
+<p><strong><em>7.</em></strong> Some game(s) were (was) not attended by anyone from this class.</p>
+<p><strong><em>8.</em></strong> No one from this class attended any games.</p>
+<p><strong><em>9.</em></strong> Someone in this class attended every game.</p>
+<p><strong><em>10.</em></strong> Someone did not attend any games.</p>
+<p><strong><em>11.</em></strong> Someone attended every game.</p>
+<p><strong><em>12.</em></strong> There was a game (were some games) that no one from this class attended.</p>
+<p><strong><em>13.</em></strong> There were no games that no one attended.</p>
+<p><strong><em>14.</em></strong> Everyone missed at least one game.</p>
+<p><strong><em>15.</em></strong> No one missed any games.</p>
+<p><strong><em>16.</em></strong> There was a game (were some games) that someone attended.</p>
+<p>&nbsp;</p>
+<p>With grateful acknowledgement of <a href="http://faculty.kutztown.edu/rieksts/125/hw/quantifiers.html">http://faculty.kutztown.edu/rieksts/125/hw/quantifiers.html</a></p>
+<p>Symbols you can copy: ? ? ? ? ? ? ? ? ? ¬</p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>How many ways to place non-attacking kings?</title><content><![CDATA[On a standard 8×8 chessboard, how many ways can I place a white and black king so they cannot attack each other?  (Kings can attack pieces adjacent either horizontally, vertically, or diagonally.]]></content><category>assn3 (10,12 Sep)</category></question><question><title>What are these quantified expressions in English?</title><content><![CDATA[<p>(54 – 71) Let D(x,y) be the statement "<em>student x does homework assignment y</em>," where the domain for <em>x</em> is the set of all students in this class and the domain for <em>y </em>is the set of all homework assignments.   Render these logical expressions into colloquial English.</p>
+<p><strong><em>54.</em></strong> <strong>?</strong>x<strong> ?</strong>y D(x,y)</p>
+<p><strong><em>55.</em></strong> <strong>?</strong>x<strong> ?</strong>y <strong>¬</strong>D(x,y)</p>
+<p><strong><em>56.</em></strong> <strong>¬</strong><strong>?</strong>x<strong> ?</strong>y D(x,y)</p>
+<p><strong><em>57.</em></strong> <strong>?</strong>x <strong>?</strong>y D(x,y)</p>
+<p><strong><em>58.</em></strong> <strong>?</strong>x <strong>?</strong>y <strong>¬</strong>D(x,y)</p>
+<p><strong><em>59.</em></strong> <strong>¬</strong><strong>?</strong>x <strong>?</strong>y D(x,y)</p>
+<p><strong><em>60.</em></strong> <strong>?</strong>x <strong>?</strong>y D(x,y)</p>
+<p><strong><em>61.</em></strong> <strong>?</strong>x <strong>?</strong>y <strong>¬</strong>D(x,y)</p>
+<p><strong><em>62.</em></strong> <strong>¬</strong><strong>?</strong>x <strong>?</strong>y D(x,y)</p>
+<p><strong><em>63.</em></strong> <strong>?</strong>y<strong> ?</strong>x D(x,y)</p>
+<p><strong><em>64.</em></strong> <strong>?</strong>y<strong> ?</strong>x <strong>¬</strong>D(x,y)</p>
+<p><strong><em>65.</em></strong> <strong>¬</strong><strong>?</strong>y<strong> ?</strong>x D(x,y)</p>
+<p><strong><em>66.</em></strong> <strong>?</strong>x<strong> ?</strong>y D(x,y)</p>
+<p><strong><em>67.</em></strong> <strong>?</strong>x<strong> ?</strong>y <strong>¬</strong>D(x,y)</p>
+<p><strong><em>68.</em></strong> <strong>¬</strong><strong>?</strong>x<strong> ?</strong>y D(x,y)</p>
+<p><strong><em>69.</em></strong> <strong>?</strong>y<strong> ?</strong>x D(x,y)</p>
+<p><strong><em>70.</em></strong> <strong>?</strong>y<strong> ?</strong>x <strong>¬</strong>D(x,y)</p>
+<p><strong><em>71.</em></strong> <strong>¬</strong><strong>?</strong>y<strong> ?</strong>x D(x,y)</p>
+<p>With grateful acknowledgement of <a href="http://faculty.kutztown.edu/rieksts/125/hw/quantifiers.html">http://faculty.kutztown.edu/rieksts/125/hw/quantifiers.html</a></p>
+<p>I&#039;d suggest copying the list of statements and adding your answer after each.</p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>Identify the knights and knaves of Smullyan7?</title><content><![CDATA[Every native of Smullyan Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. You meet 4 natives, denoted A, B, C,&hellip;. The first 3 of them state:
+ 
+A: C is a knight and B is a knight.
+B: D is a knight and A is a knave.
+C: B is a knave, if and only if D is a knave.
+Write in notation what you learn from each statement.  You can use <em>A</em> to mean A is a knight, so <em>&not;A</em> means A is a knave.
+  For example, if A states P, you learn A&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+ Who are knights and who are knaves?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Identify the knights and knaves of Smullyan6?</title><content><![CDATA[Every native of Smullyan Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. You meet 4 natives, denoted A, B, C,&hellip;. The first 3 of them state:
+ 
+A: B is a knave and C is a knave.
+B: If A is a knave, then C is a knight.
+C: D is a knight and B is a knight.
+Write in notation what you learn from each statement.  You can use <em>A</em> to mean A is a knight, so <em>&not;A</em> means A is a knave.
+  For example, if A states P, you learn A&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+ Who are knights and who are knaves?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Find the knights of Settled11?</title><content><![CDATA[Every native of Settled Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. Natives of Settled know all about sets, which they denote {PQR[Ellipsis]} (without commas), including the empty set {}. When counting, however, they primarily distingush even {0, 2, 4, &hellip;} and odd {1, 3, 5, &hellip;} numbers.
+You meet 7 natives, A, B, C,&hellip; who made the following statements:
+ <p style="padding-left: 30px">
+Native A said: ?In the set {F} there is an odd  number of knights.?
+Native B said: ?In the set {AEF} there is an odd  number of knights.?
+Native C said: ?In the set {ADG} there is an even  number of knights.?
+Native D said: ?In the set {E} there is an even  number of knights.?
+Native E said: ?In the set {BCF} there is an odd  number of knights.?
+Native F said: ?In the set {B} there is an even  number of knights.?
+Native G said: ?In the set {CE} there is an odd  number of knights.?
+</p>
+Who are the knights and who are the knaves?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>What if we answer more than 1 question before the first due date?</title><content><![CDATA[<p>We will get full credit for correct answers after the first due. So I&#039;m just wondering if the sakai system is able to tell which questions are answered before the first due date. Thanks!</p>]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Find the knights of Settled16?</title><content><![CDATA[Every native of Settled Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. Natives of Settled know all about sets, which they denote {PQR[Ellipsis]} (without commas), including the empty set {}. When counting, however, they primarily distingush even {0, 2, 4, &hellip;} and odd {1, 3, 5, &hellip;} numbers.
+You meet 5 natives, A, B, C,&hellip; who made the following statements:
+ <p style="padding-left: 30px">
+Native A said: ?In the set {E} there is an odd  number of knights.?
+Native B said: ?In the set {ADE} there is an even  number of knights.?
+Native C said: ?In the set {} there is an odd  number of knights.?
+Native D said: ?In the set {E} there is an even  number of knights.?
+Native E said: ?In the set {C} there is an even  number of knights.?
+</p>
+Who are the knights and who are the knaves?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Find the knights of Settled17?</title><content><![CDATA[Every native of Settled Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. Natives of Settled know all about sets, which they denote {PQR[Ellipsis]} (without commas), including the empty set {}. When counting, however, they primarily distingush even {0, 2, 4, &hellip;} and odd {1, 3, 5, &hellip;} numbers.
+You meet 5 natives, A, B, C,&hellip; who made the following statements:
+ <p style="padding-left: 30px">
+Native A said: ?In the set {BD} there is an odd  number of knights.?
+Native B said: ?In the set {} there is an even  number of knights.?
+Native C said: ?In the set {D} there is an even  number of knights.?
+Native D said: ?In the set {B} there is an even  number of knights.?
+Native E said: ?In the set {A} there is an odd  number of knights.?
+</p>
+Who are the knights and who are the knaves?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Find the knights of Settled19?</title><content><![CDATA[Every native of Settled Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. Natives of Settled know all about sets, which they denote {PQR[Ellipsis]} (without commas), including the empty set {}. When counting, however, they primarily distingush even {0, 2, 4, &hellip;} and odd {1, 3, 5, &hellip;} numbers.
+You meet 6 natives, A, B, C,&hellip; who made the following statements:
+ <p style="padding-left: 30px">
+Native A said: ?In the set {EF} there is an odd  number of knights.?
+Native B said: ?In the set {E} there is an even  number of knights.?
+Native C said: ?In the set {D} there is an odd  number of knights.?
+Native D said: ?In the set {CF} there is an odd  number of knights.?
+Native E said: ?In the set {ABDF} there is an even  number of knights.?
+Native F said: ?In the set {C} there is an odd  number of knights.?
+</p>
+Who are the knights and who are the knaves?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Find the knights of Settled20?</title><content><![CDATA[Every native of Settled Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. Natives of Settled know all about sets, which they denote {PQR[Ellipsis]} (without commas), including the empty set {}. When counting, however, they primarily distingush even {0, 2, 4, &hellip;} and odd {1, 3, 5, &hellip;} numbers.
+You meet 6 natives, A, B, C,&hellip; who made the following statements:
+ <p style="padding-left: 30px">
+Native A said: ?In the set {CD} there is an even  number of knights.?
+Native B said: ?In the set {AE} there is an odd  number of knights.?
+Native C said: ?In the set {ABEF} there is an even  number of knights.?
+Native D said: ?In the set {} there is an odd  number of knights.?
+Native E said: ?In the set {B} there is an even  number of knights.?
+Native F said: ?In the set {ADE} there is an odd  number of knights.?
+</p>
+Who are the knights and who are the knaves?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Determine the tribes of Nomanisan16?</title><content><![CDATA[<p>On Nomanisan Island, the natives communicate only person to person. Each inhabitant belong to one of two tribes: T or F.  When two people from the same tribe communicate, they tell the truth, but when two people from different tribes communicate, they lie.</p>
+<p>You meet 4 inhabitants,  denoted A, B, C, &hellip;, and you ask them to talk about who is from what tribe.  You observe these statements:<br />
+A to B: If B is from tribe T,  then  C is from T.<br />
+B to C: C is from tribe T  if and only if  A is from tribe F.<br />
+C to D: If B is from tribe F,  then  A is from T.<br />
+D to A: C is from tribe F  or  B from F.</p>
+<p>Write in notation what you learn from each statement.<br />
+  For example, from A to B: P, you learn (A&harr;B)&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )</p>
+<p>Who is from tribe T, and who from F?</p>
+<p>(Hello, Professor Snoeyink. If students can edit this, it&#039;s a bit of a security concern. I doubt any one will use this maliciously, but better safe than sorry.)</p>]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Determine the tribes of Nomanisan17?</title><content><![CDATA[On Nomanisan Island, the natives communicate only person to person. Each inhabitant belong to one of two tribes: T or F.  When two people from the same tribe communicate, they tell the truth, but when two people from different tribes communicate, they lie.
+You meet 4 inhabitants,  denoted A, B, C, &hellip;, and you ask them to talk about who is from what tribe.  You observe these statements: 
+A to B: D is from tribe T  and  C is from T.
+B to C: If C is from tribe F,  then  D is from T.
+C to D: D is from tribe F  and  A is from F.
+D to A: C is from tribe T  or  B from T.
+Write in notation what you learn from each statement.
+  For example, from A to B: P, you learn (A&harr;B)&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+Who is from tribe T, and who from F?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Find the knights of Settled18?</title><content><![CDATA[Every native of Settled Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. Natives of Settled know all about sets, which they denote {PQR[Ellipsis]} (without commas), including the empty set {}. When counting, however, they primarily distingush even {0, 2, 4, &hellip;} and odd {1, 3, 5, &hellip;} numbers.
+You meet 5 natives, A, B, C,&hellip; who made the following statements:
+ <p style="padding-left: 30px">
+Native A said: ?In the set {BCD} there is an even  number of knights.?
+Native B said: ?In the set {C} there is an even  number of knights.?
+Native C said: ?In the set {BE} there is an odd  number of knights.?
+Native D said: ?In the set {E} there is an odd  number of knights.?
+Native E said: ?In the set {AC} there is an even  number of knights.?
+</p>
+Who are the knights and who are the knaves?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Find the knights of Settled12?</title><content><![CDATA[Every native of Settled Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. Natives of Settled know all about sets, which they denote {PQR[Ellipsis]} (without commas), including the empty set {}. When counting, however, they primarily distingush even {0, 2, 4, &hellip;} and odd {1, 3, 5, &hellip;} numbers.
+You meet 7 natives, A, B, C,&hellip; who made the following statements:
+ <p style="padding-left: 30px">
+Native A said: ?In the set {DE} there is an even  number of knights.?
+Native B said: ?In the set {AC} there is an odd  number of knights.?
+Native C said: ?In the set {DEF} there is an odd  number of knights.?
+Native D said: ?In the set {BCFG} there is an even  number of knights.?
+Native E said: ?In the set {} there is an odd  number of knights.?
+Native F said: ?In the set {AE} there is an even  number of knights.?
+Native G said: ?In the set {ABDF} there is an odd  number of knights.?
+</p>
+Who are the knights and who are the knaves?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Busy Beaver - Thoughts on # of Sensors?</title><content><![CDATA[<p>Are 4 sensors necessary to accomplish 14 clovers?</p>
+<p>The two sensor config took all of about 30 seconds to setup for 4 clovers.</p>
+<p>Just curious what clover count people have accomplished with 3 and 4 sensors.</p>
+<p>I&#039;m assuming the most successful stop condition will still have to be located next to the stump.</p>
+<p>Trying to keep the discussion vague, don&#039;t want to spoil the fun for anyone by getting into specifics.</p>]]></content><category>assn1 (27 Aug)</category></question><question><title>Determine the tribes of Nomanisan19?</title><content><![CDATA[On Nomanisan Island, the natives communicate only person to person. Each inhabitant belong to one of two tribes: T or F.  When two people from the same tribe communicate, they tell the truth, but when two people from different tribes communicate, they lie.
+You meet 5 inhabitants,  denoted A, B, C, &hellip;, and you ask them to talk about who is from what tribe.  You observe these statements: 
+A to B: D is from tribe F  or  E from T.
+B to C: C is from tribe F  or  A from F.
+C to D: E is from tribe F  if and only if  B is from tribe F.
+D to E: C is from tribe F  or  B from T.
+E to A: If D is from tribe T,  then  B is from F.
+Write in notation what you learn from each statement.
+  For example, from A to B: P, you learn (A&harr;B)&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+Who is from tribe T, and who from F?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Can you write these using quantifiers?</title><content><![CDATA[<p>(72 – 96) Let D(x,y) be the statement “<em>student x does homework assignment y</em>,” where the domain for <em>x</em> is the set of all students in this class and the domain for <em>y </em>is the set of all homework assignments.   Write the logical expression – using nested quantifiers – for each sentence below.</p>
+<p>Note: answers may occur more than once.</p>
+<p><strong><em>72.</em></strong> Not every student in this class does all the homework assignments.</p>
+<p><strong><em>73.</em></strong> Some students do some of the assignments.</p>
+<p><strong><em>74.</em></strong> No one does every assignment.</p>
+<p><strong><em>75.</em></strong> Some don’t do every assignment.</p>
+<p><strong><em>76.</em></strong> Some don’t do any assignment.</p>
+<p><strong><em>77.</em></strong> Some do every assignment.</p>
+<p><strong><em>78.</em></strong> Every student does every assignment.</p>
+<p><strong><em>79.</em></strong> Not every student does every assignment.</p>
+<p><strong><em>80.</em></strong> Everyone skips an assignment.</p>
+<p><strong><em>81.</em></strong> No one skips any assignment.</p>
+<p><strong><em>82.</em></strong> Someone skips an assignment.</p>
+<p><strong><em>83.</em></strong> No one skips every assignment.</p>
+<p><strong><em>84.</em></strong> Some skip every assignment.</p>
+<p><strong><em>85.</em></strong> Some don’t skip any assignments.</p>
+<p><strong><em>86.</em></strong> Every student does an assignment.</p>
+<p><strong><em>87.</em></strong> No one does any assignment.</p>
+<p><strong><em>88.</em></strong> Derek did every assignment.</p>
+<p><strong><em>89.</em></strong> Dana did not do any assignment.</p>
+<p><strong><em>90.</em></strong> Jamie did some assignment(s).</p>
+<p><strong><em>91.</em></strong> Everyone did homework 1.3.</p>
+<p><strong><em>92.</em></strong> No one did homework 1.2.</p>
+<p><strong><em>93.</em></strong> Someone did homework 1.1.</p>
+<p><strong><em>94.</em></strong> Everyone skipped homework 1.4.</p>
+<p><strong><em>95.</em></strong> Dylan did homework 1.1.</p>
+<p><strong><em>96.</em></strong> Johnna skipped homework 1.5.</p>
+<p>With grateful acknowledgement of <a href="http://faculty.kutztown.edu/rieksts/125/hw/quantifiers.html">http://faculty.kutztown.edu/rieksts/125/hw/quantifiers.html</a></p>
+<p>Symbols you can copy: ? ? ? ? ? ? ? ? ? ¬</p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>Determine the tribes of Nomanisan18?</title><content><![CDATA[On Nomanisan Island, the natives communicate only person to person. Each inhabitant belong to one of two tribes: T or F.  When two people from the same tribe communicate, they tell the truth, but when two people from different tribes communicate, they lie.
+You meet 5 inhabitants,  denoted A, B, C, &hellip;, and you ask them to talk about who is from what tribe.  You observe these statements: 
+A to B: D is from tribe F  if and only if  B is from tribe T.
+B to C: If A is from tribe F,  then  D is from F.
+C to D: A is from tribe F  or  E from T.
+D to E: B is from tribe F  or  E from T.
+E to A: C is from tribe F  or  B from T.
+Write in notation what you learn from each statement.
+  For example, from A to B: P, you learn (A&harr;B)&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+Who is from tribe T, and who from F?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Quiz Prep 6</title><content><![CDATA[<p>Actually disregard/delete this, I asked too hastily and solved my own problem. </p>]]></content><category>mid1 (24Sep)</category></question><question><title>Find the knights of Settled2?</title><content><![CDATA[Every native of Settled Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. Natives of Settled know all about sets, which they denote {PQR[Ellipsis]} (without commas), including the empty set {}. When counting, however, they primarily distingush even {0, 2, 4, &hellip;} and odd {1, 3, 5, &hellip;} numbers.
+You meet 4 natives, A, B, C,&hellip; who made the following statements:
+ <p style="padding-left: 30px">
+Native A said: ?In the set {B} there is an odd  number of knights.?
+Native B said: ?In the set {CD} there is an odd  number of knights.?
+Native C said: ?In the set {D} there is an odd  number of knights.?
+Native D said: ?In the set {} there is an odd  number of knights.?
+</p>
+Who are the knights and who are the knaves?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Find the knights of Settled4?</title><content><![CDATA[Every native of Settled Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. Natives of Settled know all about sets, which they denote {PQR[Ellipsis]} (without commas), including the empty set {}. When counting, however, they primarily distingush even {0, 2, 4, &hellip;} and odd {1, 3, 5, &hellip;} numbers.
+You meet 4 natives, A, B, C,&hellip; who made the following statements:
+ <p style="padding-left: 30px">
+Native A said: ?In the set {C} there is an odd  number of knights.?
+Native B said: ?In the set {C} there is an even  number of knights.?
+Native C said: ?In the set {AB} there is an even  number of knights.?
+Native D said: ?In the set {} there is an odd  number of knights.?
+</p>
+Who are the knights and who are the knaves?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>How to get full credit on Kara assignment?</title><content><![CDATA[<div dir="ltr">
+<div>Alex asks:  </div>
+</div>
+<div>
+<div>
+<div>
+<div>
+<blockquote>
+<div dir="ltr">
+<div>I had a question about the Kara Checkerboard exercise. I am confused about what it is that we have to do to receive full credit for this assignment. There are solutions posted on the Kara program, one of which matches my solution. Will I receive full credit for submitting my solution? Or is the assignment to find a more simplified solution than the one posted on Kara?</div>
+</div>
+</blockquote>
+</div>
+</div>
+</div>
+</div>]]></content><category>assn1 (27 Aug)</category></question><question><title>How do I make a truth table on the Q/A site?</title><content><![CDATA[<p>Upload a picture, or a spreadsheet, or use the table tool in the Q/A editor.</p>
+<p>If you only see one row of tools in the editor, click on the last one (or Alt+Shift+Z) to show the `Kitchen sink". </p>
+<p>In the second row of tools, the last dozen are for tables, initially all gray except the create table button.  Click it and tell it how many rows/cols; I also set width 80%. Then just fill in the details. you can add/ delete rows &amp; cols. I center in each col, too.</p>
+<p>OR, if you have to make a  3 var truth table, just copy this one...</p>
+<p>&nbsp;</p>
+<table style="width: 80%;" border="0">
+<tbody>
+<tr>
+<td align="center">p</td>
+<td align="center">q</td>
+<td align="center">r</td>
+<td align="center">form1</td>
+<td align="center">form2</td>
+<td align="center">form3</td>
+</tr>
+<tr>
+<td align="center">T</td>
+<td align="center">T</td>
+<td align="center">T</td>
+<td align="center"> </td>
+<td align="center"> </td>
+<td align="center"> </td>
+</tr>
+<tr>
+<td align="center">T</td>
+<td align="center">T</td>
+<td align="center">F</td>
+<td align="center"> </td>
+<td align="center"> </td>
+<td align="center"> </td>
+</tr>
+<tr>
+<td align="center">T</td>
+<td align="center">F</td>
+<td align="center">T</td>
+<td align="center"> </td>
+<td align="center"> </td>
+<td align="center"> </td>
+</tr>
+<tr>
+<td align="center">T</td>
+<td align="center">F</td>
+<td align="center">F</td>
+<td align="center"> </td>
+<td align="center"> </td>
+<td align="center"> </td>
+</tr>
+<tr>
+<td align="center">F</td>
+<td align="center">T</td>
+<td align="center">T</td>
+<td align="center"> </td>
+<td align="center"> </td>
+<td align="center"> </td>
+</tr>
+<tr>
+<td align="center">F</td>
+<td align="center">T</td>
+<td align="center">F</td>
+<td align="center"> </td>
+<td align="center"> </td>
+<td align="center"> </td>
+</tr>
+<tr>
+<td align="center">F</td>
+<td align="center">F</td>
+<td align="center">T</td>
+<td align="center"> </td>
+<td align="center"> </td>
+<td align="center"> </td>
+</tr>
+<tr>
+<td align="center">F</td>
+<td align="center">F</td>
+<td align="center">F</td>
+<td align="center"> </td>
+<td align="center"> </td>
+<td align="center"> </td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>If and Only If Notation Negation</title><content><![CDATA[<p>While working on one of the Smullyan&#039;s Island problems, I encountered an issue in my truth table that I think I traced back to my "if and only if" negation.</p>
+<p>The problem states: </p>
+<p><strong>B: D is a knave, if and only if C is a knight.</strong></p>
+<p>From this, I took that:</p>
+<p>B ? (¬ D ? C)</p>
+<p>While trying to write the negation for this though (to represent if B lied), my negation came out as:</p>
+<p>¬ B? (D ? ¬C)</p>
+<p>&nbsp;</p>
+<p>With these two biconditionals, my truth table does not show a full row of truth anywhere.</p>
+<p>I might be wrong in identifying this as the source of my truth table&#039;s mistake, but on the off chance that I am correct, could someone please help?</p>]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Find the knights of Settled5?</title><content><![CDATA[Every native of Settled Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. Natives of Settled know all about sets, which they denote {PQR[Ellipsis]} (without commas), including the empty set {}. When counting, however, they primarily distingush even {0, 2, 4, &hellip;} and odd {1, 3, 5, &hellip;} numbers.
+You meet 5 natives, A, B, C,&hellip; who made the following statements:
+ <p style="padding-left: 30px">
+Native A said: ?In the set {} there is an even  number of knights.?
+Native B said: ?In the set {ACD} there is an even  number of knights.?
+Native C said: ?In the set {D} there is an odd  number of knights.?
+Native D said: ?In the set {} there is an even  number of knights.?
+Native E said: ?In the set {CD} there is an odd  number of knights.?
+</p>
+Who are the knights and who are the knaves?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Find the knights of Settled9?</title><content><![CDATA[Every native of Settled Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. Natives of Settled know all about sets, which they denote {PQR[Ellipsis]} (without commas), including the empty set {}. When counting, however, they primarily distingush even {0, 2, 4, &hellip;} and odd {1, 3, 5, &hellip;} numbers.
+You meet 6 natives, A, B, C,&hellip; who made the following statements:
+ <p style="padding-left: 30px">
+Native A said: ?In the set {BCE} there is an even  number of knights.?
+Native B said: ?In the set {CEF} there is an even  number of knights.?
+Native C said: ?In the set {A} there is an odd  number of knights.?
+Native D said: ?In the set {C} there is an even  number of knights.?
+Native E said: ?In the set {F} there is an even  number of knights.?
+Native F said: ?In the set {} there is an even  number of knights.?
+</p>
+Who are the knights and who are the knaves?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Find the knights of Settled8?</title><content><![CDATA[Every native of Settled Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. Natives of Settled know all about sets, which they denote {PQR[Ellipsis]} (without commas), including the empty set {}. When counting, however, they primarily distingush even {0, 2, 4, &hellip;} and odd {1, 3, 5, &hellip;} numbers.
+You meet 6 natives, A, B, C,&hellip; who made the following statements:
+ <p style="padding-left: 30px">
+Native A said: ?In the set {D} there is an even  number of knights.?
+Native B said: ?In the set {D} there is an even  number of knights.?
+Native C said: ?In the set {B} there is an even  number of knights.?
+Native D said: ?In the set {ACE} there is an even  number of knights.?
+Native E said: ?In the set {AB} there is an odd  number of knights.?
+Native F said: ?In the set {AD} there is an even  number of knights.?
+</p>
+Who are the knights and who are the knaves?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Identify the knights and knaves of Smullyan9?</title><content><![CDATA[Every native of Smullyan Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. You meet 5 natives, denoted A, B, C,&hellip;. The first 4 of them state:
+ 
+A: If B is a knave, then C is a knave.
+B: A is a knave and C is a knight.
+C: E is a knight, if and only if D is a knight.
+D: B is a knave, if and only if C is a knave.
+Write in notation what you learn from each statement.  You can use <em>A</em> to mean A is a knight, so <em>&not;A</em> means A is a knave.
+  For example, if A states P, you learn A&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+ Who are knights and who are knaves?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Find the knights of Settled10?</title><content><![CDATA[Every native of Settled Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. Natives of Settled know all about sets, which they denote {PQR[Ellipsis]} (without commas), including the empty set {}. When counting, however, they primarily distingush even {0, 2, 4, &hellip;} and odd {1, 3, 5, &hellip;} numbers.
+You meet 6 natives, A, B, C,&hellip; who made the following statements:
+ <p style="padding-left: 30px">
+Native A said: ?In the set {CE} there is an even  number of knights.?
+Native B said: ?In the set {ACD} there is an odd  number of knights.?
+Native C said: ?In the set {} there is an odd  number of knights.?
+Native D said: ?In the set {E} there is an even  number of knights.?
+Native E said: ?In the set {C} there is an odd  number of knights.?
+Native F said: ?In the set {E} there is an odd  number of knights.?
+</p>
+Who are the knights and who are the knaves?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Identify the knights and knaves of Raymond7?</title><content><![CDATA[On Raymond Island, "knights" always tell the truth, "knaves" always lie, and "normals" sometimes tell the truth and sometimes lie. You meet 4 natives, denoted A, B, C,&hellip;. At least one is a knight, and at least one is a knave.  They state:
+ 
+A: If B is a knave, then  C is a knight.
+B: D is a knight  if and only if  C is a knight.
+C: If B is a knave, then  A is a knave.
+D: C is a knave  if and only if  A is a knave.
+ Who are knights, who are knaves, and who are normals?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Identify the knights and knaves of Raymond9?</title><content><![CDATA[<p>On Raymond Island, "knights" always tell the truth, "knaves" always lie, and "normals" sometimes tell the truth and sometimes lie. You meet 3 natives, denoted A, B, C,&hellip;. At least one is a knight, and at least one is a knave.  They state:</p>
+<p>A: C is a knave  if and only if  B is a knight.<br />
+B: C is a knight  and  A is a knave.<br />
+C: A is a knave  and  B is a knave.</p>
+<p> Who are knights, who are knaves, and who are normals?</p>]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Determine the tribes of Nomanisan5?</title><content><![CDATA[On Nomanisan Island, the natives communicate only person to person. Each inhabitant belong to one of two tribes: T or F.  When two people from the same tribe communicate, they tell the truth, but when two people from different tribes communicate, they lie.
+You meet 4 inhabitants,  denoted A, B, C, &hellip;, and you ask them to talk about who is from what tribe.  You observe these statements: 
+A to B: B is from tribe T  and  D is from F.
+B to C: D is from tribe F  and  C is from F.
+C to D: D is from tribe T  if and only if  A is from tribe F.
+D to A: B is from tribe F  and  C is from T.
+Write in notation what you learn from each statement.
+  For example, from A to B: P, you learn (A&harr;B)&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+Who is from tribe T, and who from F?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Find the knights of Settled7?</title><content><![CDATA[Every native of Settled Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. Natives of Settled know all about sets, which they denote {PQR[Ellipsis]} (without commas), including the empty set {}. When counting, however, they primarily distingush even {0, 2, 4, &hellip;} and odd {1, 3, 5, &hellip;} numbers.
+You meet 5 natives, A, B, C,&hellip; who made the following statements:
+ <p style="padding-left: 30px">
+Native A said: ?In the set {B} there is an odd  number of knights.?
+Native B said: ?In the set {C} there is an odd  number of knights.?
+Native C said: ?In the set {} there is an odd  number of knights.?
+Native D said: ?In the set {A} there is an even  number of knights.?
+Native E said: ?In the set {BCD} there is an odd  number of knights.?
+</p>
+Who are the knights and who are the knaves?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Identify the knights and knaves of Raymond1?</title><content><![CDATA[On Raymond Island, "knights" always tell the truth, "knaves" always lie, and "normals" sometimes tell the truth and sometimes lie. You meet 3 natives, denoted A, B, C,&hellip;. At least one is a knight, and at least one is a knave.  They state:
+ 
+A: B is a knight  or  C is a knave.
+B: A is a knight  or  C is a knave.
+C: A is a knave  if and only if  B is a knave.
+ Who are knights, who are knaves, and who are normals?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Determine the tribes of Nomanisan10?</title><content><![CDATA[On Nomanisan Island, the natives communicate only person to person. Each inhabitant belong to one of two tribes: T or F.  When two people from the same tribe communicate, they tell the truth, but when two people from different tribes communicate, they lie.
+You meet 6 inhabitants,  denoted A, B, C, &hellip;, and you ask them to talk about who is from what tribe.  You observe these statements: 
+A to B: If B is from tribe T,  then  D is from T.
+B to C: E is from tribe F  if and only if  F is from tribe T.
+C to D: F is from tribe F  and  A is from F.
+D to E: If E is from tribe F,  then  C is from F.
+E to F: F is from tribe T  or  D from F.
+F to A: E is from tribe F  if and only if  B is from tribe T.
+Write in notation what you learn from each statement.
+  For example, from A to B: P, you learn (A&harr;B)&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+Who is from tribe T, and who from F?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Determine the tribes of Nomanisan6?</title><content><![CDATA[On Nomanisan Island, the natives communicate only person to person. Each inhabitant belong to one of two tribes: T or F.  When two people from the same tribe communicate, they tell the truth, but when two people from different tribes communicate, they lie.
+You meet 4 inhabitants,  denoted A, B, C, &hellip;, and you ask them to talk about who is from what tribe.  You observe these statements: 
+A to B: If B is from tribe T,  then  D is from T.
+B to C: D is from tribe F  if and only if  A is from tribe F.
+C to D: D is from tribe F  and  B is from F.
+D to A: C is from tribe F  if and only if  A is from tribe F.
+Write in notation what you learn from each statement.
+  For example, from A to B: P, you learn (A&harr;B)&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+Who is from tribe T, and who from F?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Determine the tribes of Nomanisan4?</title><content><![CDATA[On Nomanisan Island, the natives communicate only person to person. Each inhabitant belong to one of two tribes: T or F.  When two people from the same tribe communicate, they tell the truth, but when two people from different tribes communicate, they lie.
+You meet 4 inhabitants,  denoted A, B, C, &hellip;, and you ask them to talk about who is from what tribe.  You observe these statements: 
+A to B: D is from tribe F  and  B is from T.
+B to C: A is from tribe T  if and only if  D is from tribe F.
+C to D: D is from tribe T  and  B is from T.
+D to A: B is from tribe F  if and only if  A is from tribe F.
+Write in notation what you learn from each statement.
+  For example, from A to B: P, you learn (A&harr;B)&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+Who is from tribe T, and who from F?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Find the knights of Settled6?</title><content><![CDATA[Every native of Settled Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. Natives of Settled know all about sets, which they denote {PQR[Ellipsis]} (without commas), including the empty set {}. When counting, however, they primarily distingush even {0, 2, 4, &hellip;} and odd {1, 3, 5, &hellip;} numbers.
+You meet 5 natives, A, B, C,&hellip; who made the following statements:
+ <p style="padding-left: 30px">
+Native A said: ?In the set {B} there is an even  number of knights.?
+Native B said: ?In the set {C} there is an even  number of knights.?
+Native C said: ?In the set {DE} there is an odd  number of knights.?
+Native D said: ?In the set {AC} there is an even  number of knights.?
+Native E said: ?In the set {BC} there is an odd  number of knights.?
+</p>
+Who are the knights and who are the knaves?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Identify the knights and knaves of Raymond3?</title><content><![CDATA[On Raymond Island, "knights" always tell the truth, "knaves" always lie, and "normals" sometimes tell the truth and sometimes lie. You meet 3 natives, denoted A, B, C,&hellip;. At least one is a knight, and at least one is a knave.  They state:
+ 
+A: If C is a knave, then  B is a knight.
+B: C is a knight  and  A is a knave.
+C: B is a knight  and  A is a knave.
+ Who are knights, who are knaves, and who are normals?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Determine the tribes of Nomanisan1?</title><content><![CDATA[On Nomanisan Island, the natives communicate only person to person. Each inhabitant belong to one of two tribes: T or F.  When two people from the same tribe communicate, they tell the truth, but when two people from different tribes communicate, they lie.
+You meet 3 inhabitants,  denoted A, B, C, &hellip;, and you ask them to talk about who is from what tribe.  You observe these statements: 
+A to B: C is from tribe F  or  B from F.
+B to C: A is from tribe T  if and only if  C is from tribe F.
+C to A: A is from tribe F  and  B is from F.
+Write in notation what you learn from each statement.
+  For example, from A to B: P, you learn (A&harr;B)&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+Who is from tribe T, and who from F?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>How many orders of n people in a circle to play a game?</title><content><![CDATA[<p>From activity games to card games, to board games, you often arrange players in a circle.  Sometimes the capability or personalities of the players to your left or right (or both) make a difference in your chances to win the game (You&#039;ve perhaps played with the "forgetful trumper" who thought they were discarding, or the "vengeful Uno opponent" who keeps calling for someone to play a reverse after you&#039;ve dumped a wild draw four on them...)</p>
+<ol>
+<li>How many different orders are there for n players?  Two orders are considered the same  if and only if every player has the same player to the right .</li>
+<li>What if the players come in couples that want to sit next to each other?  Now how many orders?</li>
+<li>What if couples never want to sit next to each other (as they should in Uno).  Can you now count how many orders?</li>
+</ol>
+<p>Pick one question to answer and refer to the number...</p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>Identify the knights and knaves of Raymond6?</title><content><![CDATA[On Raymond Island, "knights" always tell the truth, "knaves" always lie, and "normals" sometimes tell the truth and sometimes lie. You meet 4 natives, denoted A, B, C,&hellip;. At least one is a knight, and at least one is a knave.  They state:
+ 
+A: B is a knight  or  C is a knight.
+B: If D is a knave, then  A is a knight.
+C: If A is a knight, then  B is a knight.
+D: If C is a knave, then  A is a knight.
+ Who are knights, who are knaves, and who are normals?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Identify the knights and knaves of Raymond2?</title><content><![CDATA[On Raymond Island, "knights" always tell the truth, "knaves" always lie, and "normals" sometimes tell the truth and sometimes lie. You meet 3 natives, denoted A, B, C,&hellip;. At least one is a knight, and at least one is a knave.  They state:
+ 
+A: C is a knave  if and only if  B is a knave.
+B: A is a knave  if and only if  C is a knave.
+C: B is a knight  and  A is a knave.
+ Who are knights, who are knaves, and who are normals?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>How many possible pizza orders?</title><content><![CDATA[<p>Jack&#039;s Pizza offers small, medium, and large pizzas with 14 possible toppings from 3 categories:</p>
+<ul>
+<li>Veggie (7): Mushrooms, Peppers, Onions, Olives, Capers, Artichoke, Pineapple</li>
+<li>Meat (5): Salami, Pepperoni, Ham, Salmon, Anchovies</li>
+<li>Cheese (2): Mozzarella, Feta</li>
+</ul>
+<div>
+<p><!--StartFragment-->Jack&#039;s Pizza has five specials:</p>
+<ul>
+<li>Balanced Diet: one topping from each of the three categories.</li>
+<li>Sampler: three different toppings from any category.</li>
+<li>Carnivore: You may choose one to four different kinds of meat.</li>
+<li>Vegan: Any size pizza with three Veggie toppings. (You can order more than one of a topping---my daughter likes triple pineapple.)</li>
+<li>Gut-buster: A large pizza with up to five toppings. (Ever had quintuple anchovies?)</li>
+</ul>
+<div>Here are seven questions, so we should get at least six people answering this.  In your answer, choose one question and refer to the question number.</div>
+</div>
+<div><ol>
+<li>How many different ways are there to order a large ``Balanced Diet&#039;&#039; pizza --- one topping from each of the three categories?</li>
+<li>How many different ways are there to order two small ``Balanced Diet&#039;&#039; pizzas?</li>
+<li>How many different ways can you choose a medium or large ``Sampler&#039;&#039; pizza?</li>
+<li>How many different medium ``Carnivore&#039;&#039; pizzas are there?</li>
+<li>How many different small ``Vegan&#039;&#039; pizzas are there?</li>
+<li>How many different ``Gut-buster&#039;&#039; pizzas are there?</li>
+<li>Make up your own question...</li>
+</ol>
+<div> </div>
+</div>
+<p><!--EndFragment--></p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>Determine the tribes of Nomanisan7?</title><content><![CDATA[On Nomanisan Island, the natives communicate only person to person. Each inhabitant belong to one of two tribes: T or F.  When two people from the same tribe communicate, they tell the truth, but when two people from different tribes communicate, they lie.
+You meet 5 inhabitants,  denoted A, B, C, &hellip;, and you ask them to talk about who is from what tribe.  You observe these statements: 
+A to B: C is from tribe F  or  D from F.
+B to C: E is from tribe F  and  A is from F.
+C to D: A is from tribe F  if and only if  B is from tribe T.
+D to E: A is from tribe T  and  B is from F.
+E to A: B is from tribe F  if and only if  A is from tribe F.
+Write in notation what you learn from each statement.
+  For example, from A to B: P, you learn (A&harr;B)&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+Who is from tribe T, and who from F?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Determine the tribes of Nomanisan9?</title><content><![CDATA[On Nomanisan Island, the natives communicate only person to person. Each inhabitant belong to one of two tribes: T or F.  When two people from the same tribe communicate, they tell the truth, but when two people from different tribes communicate, they lie.
+You meet 5 inhabitants,  denoted A, B, C, &hellip;, and you ask them to talk about who is from what tribe.  You observe these statements: 
+A to B: If C is from tribe F,  then  D is from T.
+B to C: D is from tribe T  and  E is from T.
+C to D: If B is from tribe T,  then  E is from F.
+D to E: If B is from tribe F,  then  C is from F.
+E to A: C is from tribe F  or  A from T.
+Write in notation what you learn from each statement.
+  For example, from A to B: P, you learn (A&harr;B)&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+Who is from tribe T, and who from F?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Identify the knights and knaves of Raymond4?</title><content><![CDATA[On Raymond Island, "knights" always tell the truth, "knaves" always lie, and "normals" sometimes tell the truth and sometimes lie. You meet 3 natives, denoted A, B, C,&hellip;. At least one is a knight, and at least one is a knave.  They state:
+ 
+A: C is a knight  if and only if  B is a knave.
+B: C is a knave  or  A is a knight.
+C: If A is a knave, then  B is a knight.
+ Who are knights, who are knaves, and who are normals?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Identify the knights and knaves of Raymond5?</title><content><![CDATA[On Raymond Island, "knights" always tell the truth, "knaves" always lie, and "normals" sometimes tell the truth and sometimes lie. You meet 5 natives, denoted A, B, C,…. At least one is a knight,  and at least one is a knave. They state:
+A: E is a knight or B is a knight.
+B: C is a knight or E is a knight.
+C: A is a knave and D is a knave.
+D: E is a knight and C is a knight.
+E: A is a knave or D is a knight.
+Who are knights, who are knaves, and who are normals?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Practice with Number Theory and More Counting!</title><content><![CDATA[<p>Some of these questions on number theory relate back to the theorems learned in class during the discussion on cryptography.</p>
+<p>1. Prove that the number of permutations of <em>n </em>objects, <em>m </em>of which are alike, is $ \frac{n!}{m!}$</p>
+<p>2. Supposed that three girls and four boys line up to board a school bus.</p>
+<p style="padding-left: 30px;">a. In how many ways can the seven children line up?</p>
+<p style="padding-left: 30px;">b. In how many of the arrangements in (a) are the three girls first in line?</p>
+<p style="padding-left: 30px;">c. In how many of the arrangements in (a) are the three girls together in line?</p>
+<p style="padding-left: 30px;">d. In how many of the arrangements in (a) are the four boys together in line?</p>
+<p style="padding-left: 30px;">e. In how many of the arrangements in (a) are no two boys together?</p>
+<p>3. Prove that for any natural numbers <em>r, n, </em>and <em>m </em>with $ r \le n + m$</p>
+<p style="padding-left: 30px;">$ \binom{n + m}{r} = \binom{n}{0} \binom{m}{r} + \binom{n}{1} \binom{m}{r - 1} + \binom{n}{2} \binom{m}{r - 2} + \cdots + \binom{n}{r} \binom{m}{0}$</p>
+<p>4. Prove that for any natural number <em>n ,</em> $ \binom{2n}{n} + \binom{2n}{n + 1} = \frac12 \binom{2n + 2}{n + 1}$</p>
+<p>&nbsp;</p>
+<p>5. Prove that</p>
+<p style="padding-left: 30px;">a. there exists integers <em>m </em>and <em>n </em>such that 2<em>m </em>+ 7<em>n </em>= 1;</p>
+<p style="padding-left: 30px;">b. there do not exist integers <em>m </em>and <em>n</em> such that 2<em>m </em>+ 4<em>n </em>= 7.</p>
+<p>6. Prove that if every even natural number greater than 2 is the sum of two primes, then every odd natural number greater than 5 is the sum of three primes.</p>
+<p>7. Prove that if <em>p </em>is a prime number and $ p \ne 3$, then 3 divides $ p^2 + 2$.</p>
+<p>8. Prove that the conjugate of the sum of any two complex numbers is the sum of their conjugates.</p>
+<p>9. Let <em>a, b, </em>and <em>c, </em>be positive integers. Prove that</p>
+<p style="padding-left: 30px;">a. if <em>ab </em>= 1, then <em>a </em>= 1 and <em>b </em>= 1.</p>
+<p style="padding-left: 30px;">b. if <em>a </em>divides <em>b </em>and <em>b </em>divides <em>a, </em> then <em>a = b.</em></p>
+<p style="padding-left: 30px;">c. if <em>ac </em> divides <em>bc, </em>then <em>a </em>divides <em>b.</em></p>
+<p>10. Let <em>x </em>and <em>y </em>be positive real numbers. Prove that $ \frac{x + y}{2} \ge \sqrt{xy}$.</p>
+<p>11. Suppose a right triangle has hypotenuse <em>c </em>and legs <em>a </em>and <em>b. </em>Prove that the triangle is isosceles if and only if its area is $ \frac14 c^2$</p>
+<p>12. Prove that $ \sqrt{2}$ is irrational.</p>
+<p style="padding-left: 30px;"><em> </em></p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>Can you convert numbers to different bases?</title><content><![CDATA[<ol>
+	<li>Convert 42 to base 5, 3, and 2.</li>
+	<li>Explain how to convert any base 2 number to base 4, 8, or 16, which use the digits 0-3, 0-7, and 0-9ABCDEF, respectively.</li>
+	<li>Create a spreadsheet that takes a decimal input number and a base, then expresses the digit sequence that represents that number in that base.  Recall that the digits used in base $ b$ are 0--(<em>b</em>-1).</li>
+	<li>In you spreadsheet, convert messages in a given alphabet to numbers and back.  You can enter a chosen alphabet of symbols in a cell, say A1, in excel (single quote if you want to start with space or enter just digits) and use functions =len(A1) for length, =find(B1,A1)-1 to find the number of the letter/digit in B1, starting from zero, and =mid(A1, C1+1,1) to turn the number in C1, which must be in 0&lt;=C1 &lt; len(A1), into the corresponding letter/digit.   Your output can be one letter per cell, or can use the =replace function to collect output into a single string.</li>
+</ol>]]></content><category>mid1 (24Sep)</category></question><question><title>Can you calculate the following floor and ceiling values?</title><content><![CDATA[The definition of floor and ceiling are:
+?x?= min {n ? Z| n?x}
+?x?= max {m ? Z| m?x}
+Can you calculate the following values of floor and ceiling using the definitions?
+1. ?-4.2?
+2. ?0.6?
+3. ?-1?
+4. ?14.678?
+5. ?0?
+6. ?-4.2?
+7. ?0.6?
+8. ?-1?
+9. ?14.678?
+10. ?0?]]></content><category>mid1 (24Sep)</category></question><question><title>Ways to sticker a Rubik's cube?</title><content><![CDATA[<p>If you peel the 6*9=54 stickers off a Rubik&#039;s cube, how many ways are there to put them back?</p>
+<p>Let&#039;s assume that the underlying cube is frozen in space and place the stickers.  It is a harder problem if we are allowed to re-orient the cube, and a much harder problem if we are allowed to do the rotations within the cube itself...</p>
+<p>Most of these ways will be impossible to solve.  How does the count decrease if you insist that the six central squares in each face get different colors?</p>
+<p>And if you add that the eight cube corners need to match the central faces?</p>
+<p>Create your own variations, if you find an interesting one...</p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>Can you use log properties to simplify the following expressions?</title><content><![CDATA[Can you use log properties to simplify the following expressions?
+Make sure to note what properties of logs you use.	
+        1. Simplify x^(1/log_2(x))
+	2. Simplify 2^log_2(x) 
+	3. Simplify 4^log_2(x) 
+	4. Simplify 8^log_2(x) 
+	5. Simplify 16^log_4(x) 
+	6. Simplify (a^n)^log_a(x)]]></content><category>mid1 (24Sep)</category></question><question><title>Can you solve the following logarithmic equations?</title><content><![CDATA[Can you solve the following logarithmic equations?
+Make sure to note what properties of logs you use.
+1. Solve $\log_{2}(x)-\log_{2}(x-1)=2$
+2. Solve $2^{-x}=5 $ for x
+3. Solve $2^{2x+3}-7=0$ for x
+4. Solve $2^{x-5}=3$ for x
+5. Solve $\log_{2}(\log_{2}(x))=1 $ for x
+6. Solve $\log_{2}(5-2x)=-3$ for x
+7. Solve $\log_{2}(x)+\log_{2}(x-1)=1$ for x
+8. Solve $2^{ax}=2C^{bx}$ for x, where a?b
+9. Solve $2^{x}$&lt;10.
+10. Solve 2&lt;$\log_{2}x$&lt;9]]></content><category>mid1 (24Sep)</category></question><question><title>Can you simplify these exponential expressions? (1)</title><content><![CDATA[Can you simplify these exponential expressions? 
+Make sure to note what properties of exponents you use.	
+        1. $(-5z)^{3}$
+	2. $6z^{2}(2y^{4})^{2}$
+	3. $\frac{7x^{2}}{x^{2}} $
+	4. $\frac{12(x+y)^{3}}{(x+y)}$
+	5. $ (-2x^{2})^{3}(4x^{3})^{-1}$
+	6. $\left(\frac{3z^{2}}{x}\right)^{-2}$]]></content><category>mid1 (24Sep)</category></question><question><title>Can you simplify these exponential expressions? (2)</title><content><![CDATA[Can you simplify these exponential expressions?
+Make sure to note what properties of exponents you use.	
+        1. $(4a^{-2}b^{3})^{-3}$
+	2. $(2x^{2}+y^{2})^{4}(2x^{2}+y^{2})^{-4}$
+	3. $(4x^{3})^{2}$
+        4. $-z^{3}(3z^{4})$
+	5. $\frac{r^{2}}{r^{6}}$]]></content><category>mid1 (24Sep)</category></question><question><title>Can you simplify these exponential expressions? (3)</title><content><![CDATA[Can you simplify these exponential expressions?
+Make sure to note what properties of exponents you use.
+1. $(2x^{5})^{0} $, x?0
+2. $(4y^{-2})(8y^{4})$
+3. $\left(\frac{x^{-3}x^{4}}{5}\right)^{-3}$
+4. $[(x^{2}y^{-2})^{-1}]^{-1}$
+5. $\frac{x^{2}y^{2n}}{x^{3}y^{n}}$]]></content><category>mid1 (24Sep)</category></question><question><title>How can I write a two-column proof on this Q/A site?</title><content><![CDATA[Mechanics:  Make a table. You can copy the 8 line table from below, which I set to 90% of window width. If you click the keyboard looking "Kitchen sink" button at the right of the edit bar buttons, you&#039;ll get buttons to insert and delete rows and adjust properties.  You can also edit html source, if you prefer.
+Do one <a title="questions tagged with logic" href="https://comp283f13.web.unc.edu/questions/tags/logic/">island question</a> and do another question; There are many there asking for <a title="questions tagged with properties" href="https://comp283f13.web.unc.edu/questions/tags/properties/">basic properties</a> proved from definitions of <a title="questions tagged with number theory" href="https://comp283f13.web.unc.edu/questions/tags/number-theory/">number theory</a>, (most such questions need more than one answer) and I&#039;m adding a few more challenging <a title="questions tagged to prove" href="https://comp283f13.web.unc.edu/questions/categories/proof/">questions to prove</a>.
+<table style="width: 90%" border="0" align="left">
+<tbody>
+<tr>
+<td>1.</td>
+<td>Here we would put in the narrative text that says what we are doing and why we are doing it, using the suggestions from the Proof chapter to indicate the type of proof, etc.  Start by stating what you are given and what you want to show.</td>
+<td>Here we would put the reason for each step</td>
+</tr>
+<tr>
+<td>2.</td>
+<td> Esp., for the number theory, you will use the definitions with your own variable names for some of the next and the final lines.</td>
+<td> defn of xxx</td>
+</tr>
+<tr>
+<td>3.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>5.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8.</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>]]></content><category>assn4 (10Oct)</category></question><question><title>Prove the pigeonhole principle?</title><content><![CDATA[Prove the following form of the pigeonhole principle.
+For any function $ f\colon A\to B$, with $ |A|$ and $ |B|$ finite and non-empty, there is a $ b\in B$ with $ |f^{-1}(b)| \ge \lceil |A|/|B|\rceil$.]]></content><category>assn5 (24Oct)</category></question><question><title>Show that irrational numbers behave irrationally, in the sense that their fractional parts show up all over the real interval [0,1]?</title><content><![CDATA[A mathematical example to prove:  For these questions, let [x] denote <em>the fractional part of x</em>: that is, $ {[x]=x-\lfloor x\rfloor}$. We are going to look at the set of all fractional parts, $ {F_{\alpha}=\{[na]\mid\forall n\in I\!\!N\}}$.  Recall that a number $ \alpha$ is irrational iff there do not exist integers $ p,q$ satisfying $ {\alpha=p/q}$.  Show the following:
+<ol>
+	<li>For any irrational number $ \alpha$, the elements we put into set $ {F_{\alpha}}$ are distinct. That is, for all positive integers $ m,n\in I\!\!N$, we have $ {[m\alpha]=[n\alpha]}$ iff $ m=n$.</li>
+	<li>For any irrational number $ \alpha$, the lower limit $ \inf F_{\alpha} = 0$. That is, for any $ \epsilon&gt;0$, there is an $ n\in I\!\!N$ with $ [n\alpha]&lt;\epsilon$.  (Hint:  Use pigeonhole principle to show that two fractional parts must be close, then subtract them.)</li>
+	<li>For any irrational number $ \alpha$, the set $ F_{\alpha}$ is \df{dense} in the interval $ [0,1]$. That is, for any reals $ {x\in[0,1]}$ and $ \epsilon&gt;0$, there is an $ n\in I\!\!N$ such that $ {|x-[n\alpha]|&lt;\epsilon}$.</li>
+</ol>
+One way to generate pseudo-random numbers is to take the fractional parts of integer multiples of an irrational number.]]></content><category>assn5 (24Oct)</category></question><question><title>Find the knights of Settled1?</title><content><![CDATA[Every native of Settled Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. Natives of Settled know all about sets, which they denote {PQR[Ellipsis]} (without commas), including the empty set {}. When counting, however, they primarily distingush even {0, 2, 4, &hellip;} and odd {1, 3, 5, &hellip;} numbers.
+You meet 4 natives, A, B, C,&hellip; who made the following statements:
+ <p style="padding-left: 30px">
+Native A said: ?In the set {BCD} there is an even  number of knights.?
+Native B said: ?In the set {} there is an even  number of knights.?
+Native C said: ?In the set {} there is an odd  number of knights.?
+Native D said: ?In the set {B} there is an even  number of knights.?
+</p>
+Who are the knights and who are the knaves?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Can you show what went wrong in this solution to a log problem?</title><content><![CDATA[Show the error in the following solution:
+1. 2log_2(x+1)=log_2(9)
+2. log_2(x+1)^2=log_2(9)
+3. (x+1)^2=9
+4. x=2 or x=-4]]></content><category>mid1 (24Sep)</category></question><question><title>Identify the knights and knaves of Smullyan1?</title><content><![CDATA[Every native of Smullyan Island is either a "knight" or a "knave;" knights always tell the truth and knaves always lie. You meet 3 natives, denoted A, B, C,…. The first 2 of them state:
+A: C is a knave and B is a knave.
+B: A is a knight and C is a knave.
+Write in notation what you learn from each statement.  You can use <em>A</em> to mean A is a knight, so <em>¬A </em>means A is a knave.
+For example, if A states P, you learn <em>A?(P)</em>. (Symbols to copy: ¬ ? ? ? ? )
+Who are knights and who are knaves?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>In any set with more than |_ n/2 _| of the first n natural numbers, [0..n-1], must there be two numbers whose sum is also in the set?</title><content><![CDATA[Suppose that n&gt;1 and that someone gives you a set of more than $\lfloor n/2\rfloor $ integers from [0..<em>n</em>-1].
+That is, you are given $S\subseteq{[0..n-1]}[/latex] with [latex]|S|&gt;\lfloor n/2\rfloor $.
+Show that you can find  $i,j\in S[/latex] with  [latex]i+j\in S$.]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 35: Can you show that this algorithm sorts its input array A[0..n-1]?</title><content><![CDATA[<p>This is question 12 in the book, section 10.3.</p>
+<p>Prove by induction that this algorithm correctly sorts its input array <em>A[0..n-1]</em>.</p>
+<p><a href="https://comp283f13.web.unc.edu/files/2013/10/insort.png"><img class="alignleft" title="insort" alt="insertion sort" src="https://comp283f13.web.unc.edu/files/2013/10/insort.png" width="513" height="400" /></a></p>]]></content><category>assn5 (24Oct)</category></question><question><title>What advice on writing proofs do you find useful?</title><content><![CDATA[The book chapter on proofs
+		and the  sakai QA guide have lots of advice, either stated positively or as criticism of QA site examples.  I&#039;ll add a few of those things as initial possible answers here.  I want to know what things you are learning about how to write proofs, so please add your own answers and vote on statements you find or found helpful. Come back to vote again on things others have added.
+<em>Note: If your vote doesn&#039;t register, try putting https:// at the front of the url in your browser, and reload the page.  You will then be able to vote. </em>]]></content><category>assn5 (24Oct)</category></question><question><title>How many selections and arrangements of books?</title><content><![CDATA[<p>I have six different math books, five different philosophy books, and three different religion books.</p>
+<ol>
+<li>In how many ways can I choose one book of each type?</li>
+<li>In how many ways can I choose three books if I ignore the types?  (The ratio  #1 / #2 is the chance  that if I pull three books blindfolded I get one of each type.)</li>
+<li>In how many orders can I put them on a shelf so that books of a given type are together?</li>
+<li>In how many orders can I put them on a shelf ignoring types?  (The ratio  #3 / #4 is the chance  that if I arrange them blindfolded I get them grouped by type.)</li>
+</ol>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>How many paths in a grid?</title><content><![CDATA[<p>Paths in a grid:</p>
+<p>1.In how many ways can I go from the origin (0,0) to (x, y) in a grid if each move increases x by one or y by one, but not both?</p>
+<p>2. What if I may not step on (i, j), which is in [0..x] × [0..y] but not at the origin or (x, y)?</p>
+]]></content><category>assn3 (10,12 Sep)</category></question><question><title>How many orders at a dinner party?</title><content><![CDATA[<p>Three couples come to a dinner party at a home where the host couple has two children.  How many ways can they seat these 10 people at a round table so that the couples are seated next to each other (children don&#039;t need to sit together)?  (Two ways are different if someone has a different person to their right, <a href="https://comp283f13.web.unc.edu/questions/how-many-orders-of-n-people-in-a-circle-to-play-a-game/">as in this question</a>.)</p>
+<p>What if the children need adults on each side of them to keep them from misbehaving?</p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>Suppose that applying a function twice always gives the input back.  Can you show that any such function is a bijection?</title><content><![CDATA[Suppose that a function f:A ? A satisfies, for every x?A, f(f(x))=x.  Prove that f is a bijection  --- that it is one-to-one and onto.]]></content><category>assn5 (24Oct)</category></question><question><title>How many gifts in the 12 days of Christmas?</title><content><![CDATA[<p>On the first day of christmas, my true love gave to me   a partridge in a pear tree = 1 gift.</p>
+<p>On the second day, I got 2 turtle doves and another partridge = 3 gifts.</p>
+<p>How many gifts do I get on day 12?</p>
+<p>How many total gifts?</p>
+<p>What are the general formulas for $ n$ days?</p>
+<p>Lyrics here: <a title="12 days lyrics" href="http://www.41051.com/xmaslyrics/twelvedays.html" target="_blank">http://www.41051.com/xmaslyrics/twelvedays.html</a></p>
+<p>&nbsp;</p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>Sharing an assortment of a dozen donuts</title><content><![CDATA[<p>Three friends want to share an assortment of a dozen donuts (all different).  Each one secretly has a favorite and a least favorite donut.</p>
+<ol>
+<li>In how many ways can they partition the assortment, with each getting the same number of donuts and none left over?</li>
+<li>In how many ways can the favorites be chosen so that it is possible for each to get their favorite?</li>
+<li>In how many ways can the least-favorite donuts be chosen so that it is possible for each to avoid their least favorite?</li>
+<li>In how many ways can both favorites and least-favorites be chosen so each gets their favorite and none get their least favorite?</li>
+<li>If the favorites and least-favorites happen to be six different donuts, how many ways can they share the assortment so each gets their favorite and avoids their least favorite?</li>
+</ol>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>Questions about the game SET</title><content><![CDATA[<p>Here are four questions about the card game <a title="About SET" href="http://setgame.com/set">SET</a>.</p>
+<p>Each card has four features.  According to the rules, there are three choices for each feature.</p>
+<p><strong>(A) Color:</strong> Each card is <em>red</em>, <em>green</em>, or <em>purple</em>.</p>
+<p><strong>(B) Symbol:</strong> Each card contains <em>ovals</em>, <em>squiggles</em>, or <em>diamonds</em>.</p>
+<p><strong>(C) Number:</strong> Each card has <em>one</em>, <em>two</em>, or <em>three</em> symbols.</p>
+<p><strong>(D) Shading:</strong> Each card is <em>solid</em>, <em>open</em>, or <em>striped</em>.</p>
+<div align="center"><a href="http://www.setgame.com"><img class="aligncenter" alt="" src="http://www.setgame.com/sites/default/files/styles/uc_product_full/public/SET-layout.png?itok=ESmUSnZ5" width="600" height="400" /></a></div>
+<p>1. How many cards are in a SET deck?</p>
+<p>&nbsp;</p>
+<p>A &#039;Set&#039; consists of three cards in which each feature is EITHER the same on each card OR is different on each card. (Thus, "If two are... and one is not, then it is <span style="text-decoration: underline;">not</span> a &#039;Set&#039;.")  Visit <a href="http://magliery.com/Set/SetRules.html" target="_blank">the set rules </a>to see examples of both sets and non-sets.</p>
+<p>2. If you choose two cards, how many cards from the SET deck will complete a Set?</p>
+<p>&nbsp;</p>
+<p>3. What is the maximum number of cards you can lay out without having a Set among them?</p>
+<p>&nbsp;</p>
+<p>4. Can you create a 3×3 square of set cards in which every row, column, and diagonal is a set?  In how many different ways?</p>
+<p>&nbsp;</p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>Identify the knights and knaves of Raymond12?</title><content><![CDATA[On Raymond Island, "knights" always tell the truth, "knaves" always lie, and "normals" sometimes tell the truth and sometimes lie. You meet 3 natives, denoted A, B, C,&hellip;. At least one is a knight, and at least one is a knave.  They state:
+ 
+A: B is a knave  and  C is a knight.
+B: C is a knave  and  A is a knight.
+C: If B is a knave, then  A is a knave.
+ Who are knights, who are knaves, and who are normals?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>How many triangles/quadrilaterals in a 7-gon?</title><content><![CDATA[<p>How many triangles can  you form using the vertices of a 7-sided polygon?</p>
+<p>How many quadrilaterals can you form using the vertices of a 7-sided polygon?</p>
+<p>Why should these numbers be the same?</p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>Determine the tribes of Nomanisan11?</title><content><![CDATA[On Nomanisan Island, the natives communicate only person to person. Each inhabitant belong to one of two tribes: T or F.  When two people from the same tribe communicate, they tell the truth, but when two people from different tribes communicate, they lie.
+You meet 6 inhabitants,  denoted A, B, C, &hellip;, and you ask them to talk about who is from what tribe.  You observe these statements: 
+A to B: If D is from tribe T,  then  C is from T.
+B to C: D is from tribe T  and  F is from T.
+C to D: If A is from tribe F,  then  E is from T.
+D to E: If E is from tribe F,  then  F is from T.
+E to F: F is from tribe F  or  B from F.
+F to A: D is from tribe T  or  C from T.
+Write in notation what you learn from each statement.
+  For example, from A to B: P, you learn (A&harr;B)&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+Who is from tribe T, and who from F?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Identify the knights and knaves of Raymond14?</title><content><![CDATA[On Raymond Island, "knights" always tell the truth, "knaves" always lie, and "normals" sometimes tell the truth and sometimes lie. You meet 4 natives, denoted A, B, C,&hellip;. At least one is a knight, and at least one is a knave.  They state:
+ 
+A: If C is a knave, then  D is a knave.
+B: C is a knight  or  A is a knight.
+C: B is a knave  or  D is a knight.
+D: If A is a knave, then  C is a knave.
+ Who are knights, who are knaves, and who are normals?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Determine the tribes of Nomanisan12?</title><content><![CDATA[On Nomanisan Island, the natives communicate only person to person. Each inhabitant belong to one of two tribes: T or F.  When two people from the same tribe communicate, they tell the truth, but when two people from different tribes communicate, they lie.
+You meet 3 inhabitants,  denoted A, B, C, &hellip;, and you ask them to talk about who is from what tribe.  You observe these statements: 
+A to B: C is from tribe F  or  B from F.
+B to C: A is from tribe T  or  C from T.
+C to A: B is from tribe F  if and only if  A is from tribe F.
+Write in notation what you learn from each statement.
+  For example, from A to B: P, you learn (A&harr;B)&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+Who is from tribe T, and who from F?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Determine the tribes of Nomanisan14?</title><content><![CDATA[On Nomanisan Island, the natives communicate only person to person. Each inhabitant belong to one of two tribes: T or F.  When two people from the same tribe communicate, they tell the truth, but when two people from different tribes communicate, they lie.
+You meet 3 inhabitants,  denoted A, B, C, &hellip;, and you ask them to talk about who is from what tribe.  You observe these statements: 
+A to B: If C is from tribe T,  then  B is from F.
+B to C: A is from tribe T  and  C is from F.
+C to A: If A is from tribe F,  then  B is from T.
+Write in notation what you learn from each statement.
+  For example, from A to B: P, you learn (A&harr;B)&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+Who is from tribe T, and who from F?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Determine the tribes of Nomanisan15?</title><content><![CDATA[On Nomanisan Island, the natives communicate only person to person. Each inhabitant belong to one of two tribes: T or F.  When two people from the same tribe communicate, they tell the truth, but when two people from different tribes communicate, they lie.
+You meet 4 inhabitants,  denoted A, B, C, &hellip;, and you ask them to talk about who is from what tribe.  You observe these statements: 
+A to B: C is from tribe F  if and only if  D is from tribe T.
+B to C: C is from tribe T  if and only if  D is from tribe T.
+C to D: If B is from tribe F,  then  D is from F.
+D to A: B is from tribe F  and  A is from T.
+Write in notation what you learn from each statement.
+  For example, from A to B: P, you learn (A&harr;B)&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+Who is from tribe T, and who from F?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Identify the knights and knaves of Smullyan15?</title><content><![CDATA[Every native of Smullyan Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. You meet 6 natives, denoted A, B, C,&hellip;. The first 5 of them state:
+ 
+A: D is a knight, if and only if B is a knight.
+B: If C is a knight, then F is a knight.
+C: If F is a knave, then B is a knight.
+D: If E is a knight, then F is a knight.
+E: A is a knave or C is a knave.
+Write in notation what you learn from each statement.  You can use <em>A</em> to mean A is a knight, so <em>&not;A</em> means A is a knave.
+  For example, if A states P, you learn A&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+ Who are knights and who are knaves?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Identify the knights and knaves of Smullyan16?</title><content><![CDATA[Every native of Smullyan Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. You meet 7 natives, denoted A, B, C,&hellip;. The first 6 of them state:
+ 
+A: D is a knight and G is a knight.
+B: If D is a knave, then C is a knave.
+C: D is a knight, if and only if B is a knight.
+D: F is a knave or A is a knave.
+E: C is a knight or A is a knight.
+F: A is a knave or C is a knight.
+Write in notation what you learn from each statement.  You can use <em>A</em> to mean A is a knight, so <em>&not;A</em> means A is a knave.
+  For example, if A states P, you learn A&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+ Who are knights and who are knaves?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Identify the knights and knaves of Raymond11?</title><content><![CDATA[On Raymond Island, "knights" always tell the truth, "knaves" always lie, and "normals" sometimes tell the truth and sometimes lie. You meet 3 natives, denoted A, B, C,&hellip;. At least one is a knight, and at least one is a knave.  They state:
+ 
+A: B is a knight  and  C is a knave.
+B: C is a knave  and  A is a knight.
+C: B is a knave  if and only if  A is a knave.
+ Who are knights, who are knaves, and who are normals?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Is it possible to arrange the integers from 1 through 30 into 5 rows and 6 columns so that the sum of integers in the columns be the same?</title><content><![CDATA[Is it possible to arrange the integers from 1 through 30 into 5 rows and 6 columns so that the sum of integers in the columns be the same?
+I can do 6 rows with 5 columns with a snake-like pattern:
+<pre> 1 2 3 4 5
+10 9 8 7 6
+...</pre>]]></content><category>assn5 (24Oct)</category></question><question><title>Identify the knights and knaves of Smullyan19?</title><content><![CDATA[Every native of Smullyan Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. You meet 3 natives, denoted A, B, C,&hellip;. The first 2 of them state:
+ 
+A: C is a knave and B is a knight.
+B: C is a knight, if and only if A is a knight.
+Write in notation what you learn from each statement.  You can use <em>A</em> to mean A is a knight, so <em>&not;A</em> means A is a knave.
+  For example, if A states P, you learn A&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+ Who are knights and who are knaves?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Identify the knights and knaves of Smullyan20?</title><content><![CDATA[Every native of Smullyan Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. You meet 4 natives, denoted A, B, C,&hellip;. The first 3 of them state:
+ 
+A: C is a knight and D is a knight.
+B: A is a knight, if and only if C is a knave.
+C: D is a knight and A is a knave.
+Write in notation what you learn from each statement.  You can use <em>A</em> to mean A is a knight, so <em>&not;A</em> means A is a knave.
+  For example, if A states P, you learn A&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+ Who are knights and who are knaves?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Identify the knights and knaves of Smullyan21?</title><content><![CDATA[Every native of Smullyan Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. You meet 4 natives, denoted A, B, C,&hellip;. The first 3 of them state:
+ 
+A: C is a knight or B is a knave.
+B: D is a knave and C is a knave.
+C: B is a knight and A is a knave.
+Write in notation what you learn from each statement.  You can use <em>A</em> to mean A is a knight, so <em>&not;A</em> means A is a knave.
+  For example, if A states P, you learn A&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+ Who are knights and who are knaves?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Identify the knights and knaves of Smullyan22?</title><content><![CDATA[Every native of Smullyan Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. You meet 4 natives, denoted A, B, C,&hellip;. The first 3 of them state:
+ 
+A: C is a knight, if and only if B is a knight.
+B: D is a knight and A is a knight.
+C: D is a knave, if and only if A is a knight.
+Write in notation what you learn from each statement.  You can use <em>A</em> to mean A is a knight, so <em>&not;A</em> means A is a knave.
+  For example, if A states P, you learn A&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+ Who are knights and who are knaves?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Identify the knights and knaves of Smullyan23?</title><content><![CDATA[Every native of Smullyan Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. You meet 5 natives, denoted A, B, C,&hellip;. The first 4 of them state:
+ 
+A: If B is a knave, then E is a knight.
+B: D is a knight and C is a knave.
+C: If B is a knave, then D is a knave.
+D: If B is a knave, then E is a knave.
+Write in notation what you learn from each statement.  You can use <em>A</em> to mean A is a knight, so <em>&not;A</em> means A is a knave.
+  For example, if A states P, you learn A&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+ Who are knights and who are knaves?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Identify the knights and knaves of Smullyan24?</title><content><![CDATA[Every native of Smullyan Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. You meet 5 natives, denoted A, B, C,&hellip;. The first 4 of them state:
+ 
+A: E is a knave, if and only if C is a knight.
+B: If D is a knave, then A is a knight.
+C: A is a knave, if and only if B is a knight.
+D: If A is a knave, then E is a knave.
+Write in notation what you learn from each statement.  You can use <em>A</em> to mean A is a knight, so <em>&not;A</em> means A is a knave.
+  For example, if A states P, you learn A&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+ Who are knights and who are knaves?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Identify the knights and knaves of Raymond16?</title><content><![CDATA[On Raymond Island, "knights" always tell the truth, "knaves" always lie, and "normals" sometimes tell the truth and sometimes lie. You meet 4 natives, denoted A, B, C,&hellip;. At least one is a knight, and at least one is a knave.  They state:
+ 
+A: B is a knight  if and only if  D is a knave.
+B: A is a knave  if and only if  D is a knave.
+C: A is a knave  if and only if  D is a knave.
+D: B is a knave  if and only if  A is a knave.
+ Who are knights, who are knaves, and who are normals?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Determine the tribes of Nomanisan13?</title><content><![CDATA[On Nomanisan Island, the natives communicate only person to person. Each inhabitant belong to one of two tribes: T or F.  When two people from the same tribe communicate, they tell the truth, but when two people from different tribes communicate, they lie.
+You meet 3 inhabitants,  denoted A, B, C, &hellip;, and you ask them to talk about who is from what tribe.  You observe these statements: 
+A to B: If B is from tribe T,  then  C is from F.
+B to C: A is from tribe T  or  C from F.
+C to A: A is from tribe F  or  B from T.
+Write in notation what you learn from each statement.
+  For example, from A to B: P, you learn (A&harr;B)&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+Who is from tribe T, and who from F?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Identify the knights and knaves of Smullyan17?</title><content><![CDATA[Every native of Smullyan Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. You meet 3 natives, denoted A, B, C,&hellip;. The first 2 of them state:
+ 
+A: C is a knave and B is a knight.
+B: C is a knight, if and only if A is a knight.
+Write in notation what you learn from each statement.  You can use <em>A</em> to mean A is a knight, so <em>&not;A</em> means A is a knave.
+  For example, if A states P, you learn A&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+ Who are knights and who are knaves?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>How many k-digit positive numbers?</title><content><![CDATA[<p>In base 10, how many positive numbers have 3 digits?  (We don&#039;t count leading zeros.)</p>
+<p>How many even positive numbers have 3 digits?  How many that are multiples of 5?</p>
+<p>How many positive numbers have $ k$ digits?  How many of these are even?  How many are multiples of 5?</p>
+<p>Explain your answer using the product and sum rules for counting.</p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>How many ways to get poker hands?</title><content><![CDATA[<p>Give an explanation for the count of one of the poker hands in Puzzle 2.4.   Answer for one type of hand, so nine people should answer this question.</p>
+<ul>
+<li>royal straight flush: 4 ways.</li>
+<li>straight flush 5 consecutive cards of the same suit, minus the royal straight flush: 36 ways.</li>
+<li>four of a kind 624 ways. full house Three of one card, two of another: 3,744 ways.</li>
+<li>flush All five cards of the same suit, minus all straights: 5,108 ways.</li>
+<li>straight 5 consecutive numbered cards of any suit, minus all flushes: 10,200 ways.</li>
+<li>triple 54,912 ways.</li>
+<li>two pair 123,552 ways.</li>
+<li>single pair 1,098,240 ways.</li>
+<li>none of the above 1,302,540 ways.</li>
+</ul>
+<p>&nbsp;</p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>How many simple substitution cyphers on [a-z]?</title><content><![CDATA[<p>A simple substitution cypher replaces each letter a-z with some other letter in an invertible manner -- it is a bijection from a-z to a-z. You may have seen Cryptoquote in the newspaper, for which the standard example is AXYDLBAAXR = LONGFELLOW (i.e., a-&gt; L and x-&gt; O.)</p>
+<p>How many different simple substitution cyphers are there?</p>
+<p>Suppose that we want to avoid sending a letter to itself, so we replace letters from the first half (a-m) with letters from the second half (n-z) and vice versa. With this restriction, how many different simple substitution cyphers are there?</p>
+<p>Counting the number of substitution cyphers in which no letter maps to itself is not easy, but you can take a swing at that, too.</p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>How long does it take to do a full peal for change ringing n bells?</title><content><![CDATA[<p><a title="Method ringing is change ringing without a caller..." href="http://en.wikipedia.org/wiki/Method_ringing">`Change ringing&#039;</a>  is a peculiarly British pastime of ringing church bells (or handbells) to do all mathematical permutations: e.g., if you had three bells, numbered from highest to lowest, you might ring the patterns 123, 213, 231, 321, 312, 132, 123, where the only repeat is the start and ending pattern, which is the descending bell sequence called <em>rounds</em>.  (This would be a <em>full peal</em>, if the <a title="rules of the Central Council" href="http://www.methods.org.uk/ccdecs.htm">Central Council of Church Bell Ringers</a> would admit peals of less than 4 bells.)</p>
+<p>Suppose each pattern or <em>change</em> takes 2 seconds.  How long would it take to do a full peal with 4, 5, 6, 7, or 8 bells?</p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>How many combinations on a single-dial padlock?</title><content><![CDATA[<p>A common single dial padlock has numbers 1-40, and a combination of three of these.  How many combinations does it have?</p>
+<p>Since you can test all third digits with a single slow turn, how many combinations are there of the first two digits?</p>
+<p>Often it is enough to hit the first and second digit to within $ \pm2$.  In that case, how many "slow turns" do you need to do to open a lock with unknown combination?</p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>Determine the tribes of Nomanisan20?</title><content><![CDATA[On Nomanisan Island, the natives communicate only person to person. Each inhabitant belong to one of two tribes: T or F.  When two people from the same tribe communicate, they tell the truth, but when two people from different tribes communicate, they lie.
+You meet 5 inhabitants,  denoted A, B, C, &hellip;, and you ask them to talk about who is from what tribe.  You observe these statements: 
+A to B: C is from tribe T  if and only if  E is from tribe T.
+B to C: A is from tribe F  or  E from T.
+C to D: D is from tribe F  if and only if  E is from tribe F.
+D to E: E is from tribe F  or  B from F.
+E to A: B is from tribe T  or  D from T.
+Write in notation what you learn from each statement.
+  For example, from A to B: P, you learn (A&harr;B)&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+Who is from tribe T, and who from F?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Identify the knights and knaves of Smullyan25?</title><content><![CDATA[Every native of Smullyan Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. You meet 5 natives, denoted A, B, C,&hellip;. The first 4 of them state:
+ 
+A: If C is a knave, then D is a knight.
+B: E is a knight or D is a knight.
+C: If D is a knight, then E is a knave.
+D: C is a knight or B is a knave.
+Write in notation what you learn from each statement.  You can use <em>A</em> to mean A is a knight, so <em>&not;A</em> means A is a knave.
+  For example, if A states P, you learn A&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+ Who are knights and who are knaves?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Identify the knights and knaves of Smullyan11?</title><content><![CDATA[Every native of Smullyan Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. You meet 5 natives, denoted A, B, C,&hellip;. The first 4 of them state:
+ 
+A: C is a knave or D is a knight.
+B: A is a knight, if and only if D is a knave.
+C: A is a knave, if and only if B is a knight.
+D: C is a knave and E is a knight.
+Write in notation what you learn from each statement.  You can use <em>A</em> to mean A is a knight, so <em>&not;A</em> means A is a knave.
+  For example, if A states P, you learn A&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+ Who are knights and who are knaves?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Identify the knights and knaves of Smullyan12?</title><content><![CDATA[<p>Every native of Smullyan Island is either a "knight" or a "knave;" knights always tell the truth and knaves always lie. You meet 5 natives, denoted A, B, C,…. The first 4 of them state:</p>
+<p>A: B is a knight and C is a knight.<br /> B: If C is a knight, then E is a knave.<br /> C: B is a knight and E is a knight.<br /> D: If E is a knave, then B is a knave.</p>
+<p>Write in notation what you learn from each statement.  You can use <em>A</em> to mean A is a knight, so <em>¬A</em> means A is a knave.<br /> For example, if A states P, you learn A?(P). (Symbols to copy: ¬ ? ? ? ? )</p>
+<p>Who are knights and who are knaves?</p>]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Identify the knights and knaves of Smullyan13?</title><content><![CDATA[Every native of Smullyan Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. You meet 6 natives, denoted A, B, C,&hellip;. The first 5 of them state:
+ 
+A: If D is a knight, then F is a knight.
+B: D is a knight or F is a knave.
+C: If F is a knight, then A is a knave.
+D: A is a knight and F is a knave.
+E: F is a knave or B is a knave.
+Write in notation what you learn from each statement.  You can use <em>A</em> to mean A is a knight, so <em>&not;A</em> means A is a knave.
+  For example, if A states P, you learn A&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+ Who are knights and who are knaves?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Identify the knights and knaves of Smullyan14?</title><content><![CDATA[Every native of Smullyan Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. You meet 6 natives, denoted A, B, C,&hellip;. The first 5 of them state:
+ 
+A: If D is a knight, then F is a knave.
+B: A is a knave, if and only if F is a knave.
+C: If B is a knave, then F is a knave.
+D: If A is a knave, then C is a knight.
+E: A is a knight, if and only if D is a knight.
+Write in notation what you learn from each statement.  You can use <em>A</em> to mean A is a knight, so <em>&not;A</em> means A is a knave.
+  For example, if A states P, you learn A&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+ Who are knights and who are knaves?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Identify the knights and knaves of Smullyan18?</title><content><![CDATA[Every native of Smullyan Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. You meet 3 natives, denoted A, B, C,&hellip;. The first 2 of them state:
+ 
+A: B is a knave, if and only if C is a knight.
+B: C is a knight or A is a knave.
+Write in notation what you learn from each statement.  You can use <em>A</em> to mean A is a knight, so <em>&not;A</em> means A is a knave.
+  For example, if A states P, you learn A&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+ Who are knights and who are knaves?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Very Difficult Counting Question</title><content><![CDATA[<p>Found this hard counting problem involving permutations deep in my old discrete notebook. Good luck to anyone who attempts to solve it.</p>
+<p>1. Each card in the standard deck of fifty-two cards consists of one of four suits and thirteen values. In the game of Badugi, the goal is to get four cards that have different suits and different values. Such a hand is called a Badugi. For example, {3 of hearts, 7 of diamonds, jack of clubs, queen of spades} is a Badugi, but {four of spades, four of diamonds, 9 of clubs, 10 of hearts} and {2 of spades, 5 of diamonds, 6 of clubs, king of clubs} are not.</p>
+<p>What is the probability that you are dealt a four-card hand that contains three cards of different suits and different values, but is not a Badugi? (In other words, you are one card away from a Badugi.)</p>
+<p>HINT: The answer is 57.05% but can you explain how to get it.</p>
+<p>You could ignore the suits for an easier version to start with.</p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>Can you convert quantified expressions to English statements and vice versa?</title><content><![CDATA[<p>Let $ D$ be the set of all dorms on campus.</p>
+<p>&nbsp;</p>
+<p>Let $ P$ be the set of all people, $ l\colon P\times D \to \{T,F\}$ be the predicate such that $ l(p,d)$ is true iff $ p \in P$ lives in dorm $ d\in D$.<br /> Let $ \delta\colon P \to P$ be the predicate such that $ \delta(p,q)$ iff $ p\in P$ has dated $ q\in P$.</p>
+<p>&nbsp;</p>
+<p>What are the English meanings of the following?</p>
+<ol>
+<li>$ \exists p\in P$, $ \forall q\in P$, $ \overline{d(p,q)}$.</li>
+<li>$ \forall p\in P$, $ \exists q\in P$, $ \overline{d(p,q)}$.</li>
+<li>$ {\not\exists p\in P,}$, $ \forall q\in P,$ $ d(p,q)$.</li>
+<li>$ \exists p\in P$, $ {\forall d\in D}$,   $ \exists q\in P$ $ d(p,q) \wedge l(q,d)$.</li>
+<li>$ \forall c,d\in D$,  $ \exists x,y\in P$ ,  $ {l(x,c)\wedge l(y,d) \wedge d(x,y)}$.</li>
+<li>$ \forall d\in D$, $ {\exists p\in P}$,   $ {\forall q \in P}$,  $ {l(p,d) \wedge l(q,d) \wedge d(p,q)}$</li>
+</ol>
+<p>&nbsp;</p>
+<p>What quantified statements represent these English sentences?</p>
+<ol>
+<li>Noone has dated themselves.</li>
+<li>Noone has dated anyone.</li>
+<li>Someone has dated every resident from some dorm.</li>
+<li>There is a dorm in which every resident has dated someone.</li>
+<li>There is a dorm whose residents have not dated anyone from<br /> another dorm.</li>
+<li>There are two people who, between the two of them, have dated<br /> someone from every dorm.</li>
+</ol>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>How many cribbage hands?</title><content><![CDATA[<p>In cribbage, you are dealt six cards and can choose two to discard. Then there is one more card turned over.  At the end of a round of play, you count points from that five-card hand.   Here are four questions for counting cribbage hands; pick one to answer and refer to the number.</p>
+<ol>
+<li>How many possibilities do you have to choose the two cards to discard out of the six you are dealt?</li>
+<li>You get two points for each pair of cards with the same number.  How many pairs are are there if you have three 5s?  How many if you have four 5s?</li>
+<li>You also get two points for each combination that adds up to 15.  How many points (from pairs and 15s) do you get if you have four 5s in your hand, and a 10 was turned over?</li>
+<li>You also get three points for each run of three cards, such as 4,5,6 of any suit.  How many points (runs, 15s, pairs) do you get from 4?,4?,5?,6?,6??</li>
+</ol>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>How many musical compositions are there?</title><content><![CDATA[<p>For the musicians: How many choices do you have when making a musical composition?  There are many things that make this question hard (types of instruments, tonal scale, time signature, dynamic range, tempo, chords, rests, slurs, holds, glissandos, ...)  Let&#039;s start with simple versions of this question.</p>
+<p>Let&#039;s say we want to compose an 8-measure theme in 4/4 time, and let ourselves use whole, half, quarter, eighth, and sixteenth notes.  Ignore dynamic range and tempo changes, and fancy trills, slides, etc.  Even for the following simpler questions the answers will not be easy to count.</p>
+<p>In fact, let&#039;s start with a single tone (middle-C) no rests.  How many different patterns of notes can you have in a single measure?  In eight measures?</p>
+<p>&nbsp;</p>
+<p>Now, add the choice of tone for each note (still no rests) .  What expression counts if you can choose your notes from, say, the 88 keys on a piano?</p>
+<p>&nbsp;</p>
+<p>If you add rests, observe that consecutive rests (unlike notes of the same tone) may merge into a longer rest. Can we add those to the count?</p>
+<p>&nbsp;</p>
+<p>What other variants would you like to count?</p>
+<p>&nbsp;</p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>Identify the knights and knaves of Smullyan10?</title><content><![CDATA[Every native of Smullyan Island is either a "knight" or a "knave;"  knights always tell the truth and knaves always lie. You meet 5 natives, denoted A, B, C,&hellip;. The first 4 of them state:
+ 
+A: B is a knight, if and only if D is a knight.
+B: C is a knight, if and only if A is a knight.
+C: If D is a knight, then A is a knight.
+D: E is a knight or A is a knave.
+Write in notation what you learn from each statement.  You can use <em>A</em> to mean A is a knight, so <em>&not;A</em> means A is a knave.
+  For example, if A states P, you learn A&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+ Who are knights and who are knaves?]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>How many pages in Sol Lewitt's portfolio?</title><content><![CDATA[<p>Artist Sol Lewitt did a<br /> series of one-page etchings in 1973 entitled <em>Straight lines in four directions and all their possible</em> <em>combinations</em>. The lines are the ways to fold a square in half.  You can see <a title="Sol Lewitt&#039;s lines" href="http://nga.gov.au/internationalprints/essays/details/34b15042.cfm" target="_blank">the cover of the portfolio here</a>.  How many pages should he have had in his portfolio?</p>
+<p>Can you arrange the pages to form a larger square so that lines end only at the edges of the larger square?  (In the arrangement linked above you can find horizontal, vertical, and diagonal lines that don&#039;t continue from edge to edge, but end in the middle.)</p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>Who skips class(es) at UNC?</title><content><![CDATA[<p>&nbsp;</p>
+<p><sub>1)</sub> Some students go to all of their classes and <sub>2)</sub> all classes have some of their students, but only <sub>3)</sub> some classes have all of their students. S represents the set  of all students, C represents the set of all classes, and A(s,c) the predicate <span style="color: #993300;">"student s attends class c."</span> Negate these three statements in English and translate them to logical notation.</p>
+<p><em><strong>JSS</strong>: Good question, which I suggest is (and therefore number as) three questions.</em></p>
+<p><em><strong>SEW:</strong> </em><em>I like this question, but I think we need notation for the set of students enrolled in a particular class and the set of classes that a particular student is enrolled in. Otherwise we can only say things like &#039;some students go to all of the classes,&#039; which (hopefully) can&#039;t be true. Let&#039;s use S<sub>c</sub> for the set of  students enrolled in class c, and C<sub>s </sub>for the set of classes that student s is enrolled in.</em></p>
+<p><strong>JSS:</strong> SEW has a good point, but I find her notation suggestion confusing.  An alternative is to also have <em>E(s,c)</em> = "student s is enrolled in class c."  <em>Then SEW&#039;s set S<sub>c</sub> = { s | E(s,c) }.  This is the set of students that enrolled in class c.  </em></p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>Determine the tribes of Nomanisan8?</title><content><![CDATA[On Nomanisan Island, the natives communicate only person to person. Each inhabitant belong to one of two tribes: T or F.  When two people from the same tribe communicate, they tell the truth, but when two people from different tribes communicate, they lie.
+You meet 5 inhabitants,  denoted A, B, C, &hellip;, and you ask them to talk about who is from what tribe.  You observe these statements: 
+A to B: E is from tribe F  if and only if  D is from tribe F.
+B to C: C is from tribe F  or  A from F.
+C to D: D is from tribe T  and  E is from F.
+D to E: B is from tribe F  if and only if  C is from tribe F.
+E to A: B is from tribe F  or  A from T.
+Write in notation what you learn from each statement.
+  For example, from A to B: P, you learn (A&harr;B)&harr;(P). (Symbols to copy: &not; &and; &or; &rarr; &harr; )
+Who is from tribe T, and who from F?
+]]></content><category>assn2 (29Aug,3Sep)</category></question><question><title>Quantifier Problems - Restaurants in Chapel Hill and Shapes</title><content><![CDATA[<p>Part 1, Restaurants:</p>
+<p>For this problem, there are two sets:  </p>
+<p>Set P  the set of all people currently living in Chapel Hill and Set R the set of all restaurants in Chapel Hill</p>
+<p>e: P x R  --&gt; {T, F}   is the predicate such that d(p,r) is true if and only if p ? P has dined at restaurant r ? R<a title="Ukrainian Ye" href="http://en.wikipedia.org/wiki/Ukrainian_Ye"><br /></a></p>
+<p>Write these statements using quantifiers:</p>
+<p>1. No person living in Chapel Hill has dined at any restaurant in Chapel Hill.</p>
+<p>2. Some person who lives in Chapel Hill hasn&#039;t dined at BSki&#039;s</p>
+<p>3. Every person who lives in Chapel Hill has dined at Time Out </p>
+<p>4. Some person who lives in Chapel Hill has dined at every restaurant in Chapel Hill</p>
+<p>5. Every person has dined at every restaurant in Chapel Hill</p>
+<p>6. All people living in Chapel Hill have never dined at Subway</p>
+<p>7. Some person who lives in Chapel Hill has dined at a restaurant in Chapel Hill</p>
+<p>8. Mary, a person living in Chapel Hill, has not dined at any restaurant in Chapel Hill.</p>
+<p>9. Allan, a person living in Chapel Hill, has dined at every restaurant in Chapel Hill.</p>
+<p>&nbsp;</p>
+<p><strong>JSS</strong>: <em>You should add some questions that put the restaurant first.  There is a restaurant, where no one who has eaten at Subways has dined.</em></p>
+<p>&nbsp;</p>
+<p>Part 2, Shapes:</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><img class="alignnone size-medium wp-image-5685" alt="quadrant picture" src="http://comp283f13.web.unc.edu/files/2013/09/quadrant-picture-300x179.png" width="300" height="179" /></p>
+<p>There exists the set Shapes  S = {Circle, triangle, pentagon, star, rectangle} and Colors C = {Brown, yellow, pink, gray, red}</p>
+<p>The quadrants are as follows: Quadrant 1 upper left, Quadrant 2 upper right, Quadrant 3 bottom right, Quadrant 4 bottom left</p>
+<p><em><strong>JSS</strong>: <a href="http://www.mathsisfun.com/definitions/quadrant-graph-.html" target="_blank">A mathematician would number like this:</a></em><br /><a href="http://www.mathsisfun.com/definitions/quadrant-graph-.html" target="_blank"><em>21</em></a><br /><a href="http://www.mathsisfun.com/definitions/quadrant-graph-.html" target="_blank"><em>34</em></a></p>
+<p>&nbsp;</p>
+<p>•i:C  --&gt; {T,F} such that i(c) = “An item of color c exists in the quadrant”</p>
+<div>•i:S  --&gt; {T,F} such that i(s) = “An item of shape s exists in the quadrant”</div>
+<div>•i:C×S --&gt; {T,F} such that i(c,s) = “An item of color c and shape s exists in the quadrant”</div>
+<p>For which of these quadrants are these quantifiers true:</p>
+<p>1. ?c?C,  i(c)</p>
+<p>2. ¬?c?C,?s?S, i(c,s)</p>
+<p>3. ?s?S, i(s)</p>
+<p>4. ?c?C,?s?S, i(c,s)</p>
+<p>5. ¬?c?C, i(c)</p>
+<p>6. ?c?C,¬i(c)</p>
+<p>7. ?c?C,?s?S, ¬i(c,s)</p>
+<p><em><sub> <strong>JSS</strong>: nice! </sub></em></p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>Ways to re-arrange a broken Rubik's cube</title><content><![CDATA[<p> In another question we saw that a Rubik&#039;s cube has 9*6=54 stickers. More importantly, a Rubik&#039;s cube has 12+8+6=26 pieces. There are 12 edges of 2 stickers, 8 corners of 3 stickers, and 6 centers of 1 sticker. Note that edges and corners each have specific stickers in a particular order, and that a red-blue edge will always be a red-blue edge no matter how the cube is twisted. This might be more obvious when looking at a sticker-less cube such as this one. <img title="Dayan Zanchi Stickerless" alt="Dayan Zanchi Stickerless" src="http://i01.i.aliimg.com/wsphoto/v1/578250069_2/dayan-zhanchi-stickerless.jpg" width="306" height="307" /></p>
+<p>&nbsp;</p>
+<p>If one had all 26 pieces of the cube, how many different ways could it be put back together? </p>
+<p>Even harder, how does that number decrease when the cube has to be put back into a solvable state? As a hint, note that seven corners may be oriented independently, but the 8th corner depends on the first 7. Similarly, 11 edges may be oriented independently, but the 12 depends on the first 11.  </p>
+<p>Harder than that, how does that number change when the centers must be oriented correctly? While not obvious or important for a regular Rubik&#039;s cube, for arrow cubes or photo cubes the cube will not be solved until the centers face the correct direction. </p>
+<p><img title="Arrow Cube" alt="Arrow Cube" src="http://www.cubesmith.com/sprcb.jpg" width="84" height="90" />    <img alt="" src="http://www.geeky-gadgets.com/wp-content/uploads/2009/03/super-mario-rubiks-cube.jpg" width="250" height="319" /></p>
+<p><em> <strong>JSS</strong>: This question is quite hard if you consider different cubes to be the same if they can be reoriented to look the same, or if they can be shuffled to look the same. Even what you "notice" about the corners is not clear to me.</em></p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>How many different completed Sudoku puzzles are there?</title><content><![CDATA[<p>A Sudoku is a grid with nine rows and nine columns, divided into nine squares, each with three rows and three columns. When completed, a Sudoku puts a digit 1-9 in each grid space such that:</p>
+<p>1. Every row contains the numbers 1-9 with no repeats.<br /> 2. Each column contains the numbers 1-9 with no repeats.<br /> 3. Each 3x3 square contains the numbers 1-9 with no repeats.</p>
+<p>For example, here is a completed Sudoku puzzle, stolen shamelessly from Wikipedia:</p>
+<p><img class="alignnone" alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Sudoku-by-L2G-20050714_solution.svg/250px-Sudoku-by-L2G-20050714_solution.svg.png" width="250" height="250" /></p>
+<p>How many different ways are there to fill this grid with the digits 1-9, such that each row, each column, and each 3x3 square contains each digit exactly once?</p>
+<p><span style="color: #993300"><em><strong>JSS</strong>: This is quite difficult, so here are some easier subproblems: </em></span></p>
+<ol>
+<li><span style="color: #993300"><em>How many ways can you fill a 3x3 grid using each of the numbers 1-9?</em></span></li>
+<li><span style="color: #993300"><em>This means there are how many ways to fill 9 3x3 grids if we didn&#039;t worry about repeating numbers in rows and columns?</em></span></li>
+<li><span style="color: #993300"><em>How many ways can you fill a 9x9 grid so you use a digit at most once in each column? (should be the same as 2).</em></span></li>
+<li><span style="color: #993300"><em>Is there an easy way to count the number of 9x9 grids that use each digit once in each row and column?  (I&#039;m not sure...) </em></span></li>
+</ol>
+<p>NT:  5. Note that most sudoku puzzles have 180 degree rotational symmetry with regards to the locations that initially contain numbers (If the top left corner contains a starting number, so will with bottom right, and so on).  It was finally proven last Sunday that the minimum number of clues needed to solve a sudoku puzzle is 17 (that is, if a puzzle begins with 16 or fewer squares filled in, it is unsolvable.)  How many ways are there to select at least 17 squares in the grid such that the selection has 180 degree rotational symmetry?  How many ways are there to select at least 17 squares with this symmetry and then fill them?</p>
+<p>JSS: 6. There is an easy way to get a lower bound on the number of sudokus:  you can choose three diagonal 3x3 grids independently.  In how many ways can you fill those in?  (Demonstrate that you may still have additional choices after you choose what goes in the diagonal 3x3s, so this is only a lower  bound.) </p>
+<p>NT: 7. Can you find an upper bound, using a similar method to the one in 6?</p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>Fantasty Football Quantifiers</title><content><![CDATA[<p>For this question there are two sets:</p>
+<p>A) The set P containing all possible fantasy football players.</p>
+<p>B) The set T containing all possible teams on a site.</p>
+<p>The predicate is <span style="color: #993300;">h :</span> P x T  –&gt; {T, F} where h(p,t) is <del>only true if</del> <span style="color: #993300;">true iff</span> the fantasy team has that player.</p>
+<p>Translate the statements into logical notation:</p>
+<p>1. No team has every player.</p>
+<p>2. No team has no players.</p>
+<p>3. Every player is on some team.</p>
+<p>4. Take any two players, there is some team they are not on together. <em><span style="color: #993300;">JSS: Do you mean that there is a team that has one but not the other?</span></em></p>
+<p>5. No player is on every team.</p>
+<p><span style="color: #993300;">6. There is a player on two different teams.</span></p>
+<p><span style="color: #993300;">7. If two players are on a team together, then there are two teams that each have one of the players and not the other.</span></p>
+<p><span style="color: #993300;"><em><strong>JSS</strong>: fixed minor issues in the statement, and added two &#039;interesting&#039; questions.</em></span></p>
+<p>&nbsp;</p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>Take 5 Cards with at least one of each type</title><content><![CDATA[<p>From a deck of cards, you are given 12 cards:</p>
+<p>- Spades (King, Queen, 5)</p>
+<p>- Hearts (Ace, 7, 3, 2)</p>
+<p>- Clubs (Jack, 10, 9, 4, 2)</p>
+<p>In how many ways can you take 5 cards so that you have a least one of each suit?</p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>How many ways to board the bus?</title><content><![CDATA[<p>Supposed that three girls and four boys line up to board a school bus.</p>
+<p>a. In how many ways can the seven children line up?</p>
+<p>b. In how many of the arrangements in (a) are the three girls first in line?</p>
+<p>c. In how many of the arrangements in (a) are the three girls together in line?</p>
+<p>d. In how many of the arrangements in (a) are the four boys together in line?</p>
+<p>e. In how many of the arrangements in (a) are no two boys together?</p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>Pizza Question (sort of)</title><content><![CDATA[<p>There are four toppings available from Wittgenstein&#039;s Pizzeria:</p>
+<p style="padding-left: 30px;">Pepperoni, Onions, Anchovies, Tofu</p>
+<p>There are two available crusts:</p>
+<p style="padding-left: 30px;">Extra-thick, Normal</p>
+<p>Each pizza can be ordered with or without cheese. </p>
+<p>1. How many pizzas are possible if each pizza has a maximum of four toppings, not including cheese?</p>
+<p>Assume that 8 people come into Wittgenstein&#039;s with the intention of between them ordering every pizza.</p>
+<p>2. If every possible pizza is ordered, and no pizzas are shared, and pizzas need not be distributed equally, how many possible ways are there for the eight friends to order and eat every pizza?</p>
+<p>Assume that one of the eight is deathly allergic to Anchovies, and two are lactose-intolerant.  <em><span style="color: #993300;"><strong>JSS</strong>: are these three different people?  Or does it not make a difference?</span></em></p>
+<p>3. If no customer will knowingly order a pizza that will make him sick, now how many possible ways are there? </p>
+<p>&nbsp;</p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>Pizza question with some uh changes.</title><content><![CDATA[<p>The Galactica has offers small, medium, and large vipers with 8 possible features from 3 categories:</p>
+<p>    Stealth (3): Dradis Invisibility, Missile Launcher , Speed+<br />
+    Colonial (2): Torpedoes, Escape Pod<br />
+    Cylon Raider (3): Laserz, FTL, Agility</p>
+<p>The Galactica has five Viper pilots that matter</p>
+<p>    Starbuck: She can fly all size vipers with 3 different features from any category<br />
+    Apollo: He can fly all sizes of vipers with one feature from any category + all Colonial features<br />
+    Athena: She can fly only large vipers with 5 different features from any category<br />
+    Hotdog: He can only fly a small viper with 1 feature from any category<br />
+    Racetrack: She can fly either a small or medium viper with 3 Stealth features</p>
+<p></p>
+<p> 1   How many different ways are there to choose a viper for Starbuck to attack a Cylon Base ship?<br />
+ 2   How many different ways are there to choose a small viper for Hotdog to take down a Cylon Base ship?<br />
+ 3   How many different ways can you choose a medium or large viper for Apollo?<br />
+ 4   If they all have a favorite feature how many ways are there to divide the features between each pilot so each one gets their favorite ?<br />
+ 5   How many different ways are there to choose a viper for Athena with features only from Colonial and Cylon  raider ?<br />
+ 6   How many ways are there to choose what type of viper Racetrack uses to blow up a Cylon Base ship ?</p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>Hold 'em or Fold 'em</title><content><![CDATA[<p>For this problem we are going to play some 5 card draw poker, assuming a 52 card deck. notation wise I will refer to the cards as J for Jack, Q for Queen, K for King, and A for Ace.</p>
+<p>-to start, how many different five card hands exists?</p>
+<p>-knowing this what is the probability of being dealt a royal flush, the highest hand possible (A, K, Q, J, 10)?</p>
+<p>Now that such a pipe dream is out of the way, we will assume that we are playing with yourself just for practice.</p>
+<p>-What is the probability that you have been dealt a pair? (This is when two of your cards are the same value, and the other three are each different from the pair and each other?)</p>
+<p>Now say for the sake of argument you have been dealt: {A?, 3?, 10?, 5?, 10?}, The strongest hands one could hope to make from this is a four of a kind, a full house, a flush, three of a kind, or two pair.</p>
+<p>-Lets start with the flush. Since Ace is high card, find the probability of turning this hand into a flush of diamonds (all cards are of the suit diamonds) by discarding: 3?, 5?, 10?.  and drawing three replacements?</p>
+<p>- So the odds of that aren&#039;t great. What is the probability that upon discarding the 3? and 5? that the two replacements will yield for of a kind? How about three of a kind? (remember that you can have either three 10s or three As) Now calculate the probability of a full house (This will be either A,A,10,10,10 or 10,10,A,A,A). Finally, whats the probability that you will get two pair (remember to discount getting two more 10s, because that makes four of a kind)? To find the probability that you will improve your hand by these means, add the probability of getting four of a kind, a full house, three of a kind, and two pair, what is this number?</p>
+<p>- Repeat the previous question, but this time you should discard all but your pair of 10s. If you are looking at just the probability of improvement, which is the most logical choice, hope for a flush, swap 2 or swap 3?</p>
+<p>-</p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>Which quantified statements on reals are true?</title><content><![CDATA[<p>Which of the following are true for the universe of all real numbers? For those sentences that are true, say why; for those that are false, provide counterexamples.</p>
+<p>a. $(\exists x)(\forall y)(x + y = 0)$</p>
+<p>b. $(\forall x)[x &gt; 0 \vee (\exists y)(y &lt; 0 \wedge xy &gt; 0)]$</p>
+<p>c. $(\forall y)(\exists x)(\forall z)(xy = xz)$</p>
+<p>d. $(\exists x)(\forall y)( x \le y)$</p>
+<p>e. $(\forall y)(\exists x)(x \le y)$</p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>Can you use the definition of divides to establish properties of divides?</title><content><![CDATA[<p>Recall the definition of divides: $ a|b$ iff $ \exists m\in {Z\!\!\!Z}$, $ {a\cdot m = b}$.</p>
+<p>&nbsp;</p>
+<p>Use this definition to show the following for all integers a,b,c.</p>
+<ol>
+<li>If $ a| b$ and $ b| c$, then $ a| c$.</li>
+<li>If $ a| b$ then $ ac| bc$.</li>
+<li>If $ a| b$ and $ b\ne 0$ then $ |a|\le |b|$.</li>
+<li>If $ a| b$ and $ b| a$ then $ |a|=|b|$.</li>
+<li>If $ a| b$ and $ a\ne 0$ then $ b/a$ is an integer.</li>
+<li>Assume that $ a&gt; 0$.  We have $ b\bmod a =c \bmod a$ iff $ a| (b-c)$.</li>
+</ol>]]></content><category>assn4 (10Oct)</category></question><question><title>Can you use the definition of divides to establish properties of divides? (2)</title><content><![CDATA[<p>For all integers a, b ? Z, we say that a divides b, denoted a|b, iff ?m ? Z am = b.</p>
+<p>For distinct primes p, q ? Z, show that:<br /> 1. if p|ab then p|a or p|b<br /> 2. if p|a and q|a iff pq|a</p>
+<p><em><span style="color: #993300;">JSS: Most `proofs&#039; here are assuming what they are trying to prove. Can you do better?  To do so, you will want to use a lemma from the math review chapter known as Bezout&#039;s lemma.  It says that if p and a have no common divisor, then there are integers x and y so that px+ay=1.  The mediant algorithm will find such integers for us. </span></em></p>]]></content><category>assn4 (10Oct)</category></question><question><title>Quantifier Question- Not unrelated to midterm</title><content><![CDATA[<p>So I have a question not unrelated to the midterm. I shan&#039;t ask the exact same problem, but I&#039;ve thought of a similar problem that will answer my question. </p>
+<p>&nbsp;</p>
+<p>P is the set of all Pokemon</p>
+<p>M is the set of all Moves </p>
+<p>L(p, m) is true iff pokemon p can learn move m.</p>
+<p>T(p,q) is true iff pokemon p and q share the same type, assuming all pokemon are just one type (which i know isn&#039;t true, but just go with me here).</p>
+<p>Would the statement...</p>
+<p>&nbsp;</p>
+<p>$ \forall$  m $ \in$ M   $ \exists$ p $ \in$ P  $ \forall$  q $ \in$  P ((L(p,m)  $ \wedge$ T(p,q)) $ \rightarrow$ L(q,m))</p>
+<p>&nbsp;</p>
+<p>say  (a) if there exists a pokemon p that can learn move m and other pokemon t are of the same type as p, then pokemon t can also learn move m</p>
+<p>&nbsp;</p>
+<p>OR</p>
+<p>&nbsp;</p>
+<p>(b) if there exists a pokemon p that can learn move m, and pokemon p shares the same type with all pokemon t, then all pokemon t can learn move m?</p>]]></content><category>mid1 (24Sep)</category></question><question><title>Can you use the definition of mod to prove these properties of mod? (1)</title><content><![CDATA[<p>Mod is defined as x mod y=x-y?x/y?</p>
+<p>Suppose that <em>n,a,b,<em>c,d</em></em> ? Z and n? 0; can you convince yourself that<br /> these are true?</p>
+<p>1. Show that if <em>a</em> mod <em>n</em> = <em>b</em> mod <em>n</em> and <em>c</em> mod <em>n</em> = <em>d</em> mod <em>n</em> then (<em>a+c</em>)mod <em>n</em> = (<em>b+d</em>)mod <em>n</em><br /> 2. Show that if <em>a</em> mod <em>n</em> = <em>b</em> mod <em>n</em> and <em>c</em> mod <em>n</em> = <em>d</em> mod <em>n</em> then (<em>a - c</em>)mod <em>n</em> = (<em>b - d</em>)mod <em>n</em><br /> 3. Show that if <em>a</em> mod <em>n</em> = <em>b</em> mod <em>n</em> and <em>c</em> mod <em>n</em> = <em>d</em> mod <em>n</em> then (<em>ac</em>)mod <em>n</em> = (<em>bd</em>)mod <em>n</em></p>]]></content><category>assn4 (10Oct)</category></question><question><title>How many tuples use at least three colors?</title><content><![CDATA[<p>You have objects of n colors and are making a k-tuple, so order matters and you can repeat a color.  We know how many ways that can be done. </p>
+<p>Question Q3 in chapter four has us figure the number of k tuples that have exactly one color, so we can find the number of k-tuples that use at least two colors.</p>
+<p>What is the number of k-tuples that use exactly 2 of the n colors?  Use that to find the number of k-tuples that use at least three of the n colors.</p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>The Primal Directive of Cmdr. Riker</title><content><![CDATA[<p>Let p be in the set of planets in the Star Trek universe; g in the set of Star Trek female characters; and s in the set of holodeck simulations. </p>
+<p>D(x, g, p) is the statement "x dated girl g from planet p"; H(s, x) is the statement "s is a simulation of x in the holodeck"; P(x, p) is the statement "x broke the <a title="Prime Directive" href="http://en.wikipedia.org/wiki/Prime_Directive" target="_blank">Prime Directive</a> on planet p", where x can be any person.</p>
+<p>&nbsp;</p>
+<p>Try to put these sentences into notation:</p>
+<p>1. Riker has dated a girl from every planet.</p>
+<p>2. Riker dated every girl on at least one planet.</p>
+<p>3. If all the simulations of Riker dated a girl on a planet, then Riker dated her.</p>
+<p>4. All the simulations of Riker dated a girl from a planet if and only if Riker dated her.</p>
+<p>5. The simulations of Riker dated simulations of all the girls from some planet in the holodeck.</p>
+<p>6. There is at least one planet where Riker broke the Prime Directive in order to date some girl from it.</p>
+<p>7. In order to not break the Prime Directive for some planet Riker must date every simulation of a girl for that planet on the holodeck.</p>
+<p>8. Breaking the Prime Directive on all planets implies Riker has to date a simulation of at least one girl from all planets on the holodeck. </p>
+<p>9. Riker dated every simulation of a girl for some planet on the holodeck .</p>
+<p>10. Riker did not date any simulations of a girl from some planet on the holodeck.</p>
+<p>11. If a simulation of Riker dated a girl on a planet, he broke the Prime Directive.</p>
+<p>12. Riker and all the simulations of Riker dated every girl from some planet.</p>
+<p>13. Any girl that a simulation of Riker dated from a planet made him break the Prime Directive.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Symbols to copy ? ? ? ? ? ? ? ? ? ¬</p>]]></content><category>assn3 (10,12 Sep)</category></question><question><title>Can you use the definition of floor and ceiling to prove these properties of floor and ceiling? (1)</title><content><![CDATA[<p>The definition of floor and ceiling are:</p>
+<p>?x?= min {n ? Z| n?x}<br /> ?x?= max {m ? Z| m?x}<br /> Can you prove the following properties of floor and ceiling using the definitions?</p>
+<p>For positive integers a and b and real x:</p>
+<p>1. ??x/a?/b?=? x/ab?<br /> 2. ??x/a?/b?=?x/ab?</p>
+<p><strong>DC:<em> </em></strong><em>If you are having trouble with this, consider the necessity of a. For example, try showing n =</em>?<em>x/b</em>? <em>eventually leads to</em> <em>n =</em>??<em>x</em>?<em>/b</em>? <em>(a is irrelevant here because we can simply substitute x/a for x</em>.<em> Also consider the inequality definitions of floor and ceiling listed in the book.</em></p>]]></content><category>assn4 (10Oct)</category></question><question><title>Can you use the definition of floor and ceiling to prove these properties of floor and ceiling? (2)</title><content><![CDATA[<p>The definition of floor and ceiling are:<br /> ?x?= min {n ? Z| n?x}<br /> ?x?= max {m ? Z| m?x}<br /> Can you prove the following properties of floor and ceiling using the definitions?</p>
+<p>1. For x?R, j?Z,?x+j?=?x?+j<br /> 2. For x?R, k?Z,?x+k?=?x?+k</p>]]></content><category>assn4 (10Oct)</category></question><question><title>Can you use the definition of floor and ceiling to prove these properties of floor and ceiling? (4)</title><content><![CDATA[<p>The definitions of floor and ceiling are:<br /> ?x?= min {n ? Z| n?x}<br /> ?x?= max {m ? Z| m?x}</p>
+<p>Show that for positive integers p,q,r,</p>
+<ol>
+<li>$ \lceil{p/q}\rceil-1 = \lfloor{ (p-1)/q}\rfloor$</li>
+<li>if $ r&lt;\lceil{p/q}\rceil$, then $ r\le\lfloor {(p-1)/q}\rfloor$.</li>
+</ol>]]></content><category>assn4 (10Oct)</category></question><question><title>Induction 8: Can you sum 1/(i(i+1))?</title><content><![CDATA[<p>What do the first $n[/latex] fractions of the form [latex]1/(i(i+1))$ sum to?</p>
+<p>Show $\forall n\in \mathbb{Z}^+$ that</p>
+<p>$\frac1{1\cdot 2}+\frac1{2\cdot 3}+\cdots+\frac1{(n-1)\cdot n}=\frac{n}{n+1}$.</p>
+<p>In summation notation, show that $\sum_{1\le i &lt; n} \frac1{i\cdot(i+1)} = \frac{n}{n+1}.$</p>
+<p>&nbsp;</p>
+<p>Feel free to add notation, like defining $S_n[/latex] as the sum. It may help to write the fraction [latex]1/(i(i+1))$ as the sum of two fractions.</p>]]></content><category>assn5 (24Oct)</category></question><question><title>Mathematical Notation to English Question (Midterm 1)</title><content><![CDATA[<p>I am looking over questions for practice for the first midterm. </p>
+<div title="Page 51">
+<p>Quiz Prep 3.2.</p>
+<p>1. What are the English meanings of the following? </p>
+<p>5. <img title="\forall c,d\in D" alt="\forall c,d\in D" src="http://s.wordpress.com/latex.php?latex=%5Cforall%20c%2Cd%5Cin%20D&amp;bg=ffffff&amp;fg=000000&amp;s=0" />,  <img title="\exists x,y\in P" alt="\exists x,y\in P" src="http://s.wordpress.com/latex.php?latex=%5Cexists%20x%2Cy%5Cin%20P&amp;bg=ffffff&amp;fg=000000&amp;s=0" /> ,  <img title="{l(x,c)\wedge l(y,d) \wedge d(x,y)}" alt="{l(x,c)\wedge l(y,d) \wedge d(x,y)}" src="http://s.wordpress.com/latex.php?latex=%7Bl%28x%2Cc%29%5Cwedge%20l%28y%2Cd%29%20%5Cwedge%20d%28x%2Cy%29%7D&amp;bg=ffffff&amp;fg=000000&amp;s=0" />.</p>
+<p>^ For this questions would this be referring to "for all c and d" and "there exists x and y people of set P"? My question is, does the comma make the "for all" or the "exists" symbol apply to both elements before and after the comma. for all (c and d)? This had me confused so hopefully someone could clarify. Thanks!</p>
+</div>]]></content><category>mid1 (24Sep)</category></question><question><title>Show that irrational numbers behave irrationally, in the sense that their fractional parts show up all over the real interval [0,1]?</title><content><![CDATA[<p>A mathematical example to prove:  For these questions, let [x] denote <em>the fractional part of x</em>: that is, <img title="{[x]=x-\lfloor x\rfloor}" alt="{[x]=x-\lfloor x\rfloor}" src="http://s.wordpress.com/latex.php?latex=%7B%5Bx%5D%3Dx-%5Clfloor%20x%5Crfloor%7D&amp;bg=ffffff&amp;fg=000000&amp;s=0" />. We are going to look at the set of all fractional parts, <img title="{F_{\alpha}=\{[na]\mid\forall n\in I\!\!N\}}" alt="{F_{\alpha}=\{[na]\mid\forall n\in I\!\!N\}}" src="http://s.wordpress.com/latex.php?latex=%7BF_%7B%5Calpha%7D%3D%5C%7B%5Bna%5D%5Cmid%5Cforall%20n%5Cin%20I%5C%21%5C%21N%5C%7D%7D&amp;bg=ffffff&amp;fg=000000&amp;s=0" />.  Recall that a number <img title="\alpha" alt="\alpha" src="http://s.wordpress.com/latex.php?latex=%5Calpha&amp;bg=ffffff&amp;fg=000000&amp;s=0" /> is irrational iff there do not exist integers <img title="p,q" alt="p,q" src="http://s.wordpress.com/latex.php?latex=p%2Cq&amp;bg=ffffff&amp;fg=000000&amp;s=0" /> satisfying <img title="{\alpha=p/q}" alt="{\alpha=p/q}" src="http://s.wordpress.com/latex.php?latex=%7B%5Calpha%3Dp%2Fq%7D&amp;bg=ffffff&amp;fg=000000&amp;s=0" />.  Show the following:</p>
+<ol>
+<li>For any irrational number <img title="\alpha" alt="\alpha" src="http://s.wordpress.com/latex.php?latex=%5Calpha&amp;bg=ffffff&amp;fg=000000&amp;s=0" />, the elements we put into set <img title="{F_{\alpha}}" alt="{F_{\alpha}}" src="http://s.wordpress.com/latex.php?latex=%7BF_%7B%5Calpha%7D%7D&amp;bg=ffffff&amp;fg=000000&amp;s=0" /> are distinct. That is, for all positive integers <img title="m,n\in I\!\!N" alt="m,n\in I\!\!N" src="http://s.wordpress.com/latex.php?latex=m%2Cn%5Cin%20I%5C%21%5C%21N&amp;bg=ffffff&amp;fg=000000&amp;s=0" />, we have <img title="{[m\alpha]=[n\alpha]}" alt="{[m\alpha]=[n\alpha]}" src="http://s.wordpress.com/latex.php?latex=%7B%5Bm%5Calpha%5D%3D%5Bn%5Calpha%5D%7D&amp;bg=ffffff&amp;fg=000000&amp;s=0" /> iff <img title="m=n" alt="m=n" src="http://s.wordpress.com/latex.php?latex=m%3Dn&amp;bg=ffffff&amp;fg=000000&amp;s=0" />.</li>
+<li>For any irrational number <img title="\alpha" alt="\alpha" src="http://s.wordpress.com/latex.php?latex=%5Calpha&amp;bg=ffffff&amp;fg=000000&amp;s=0" />, the lower limit <img title="\inf F_{\alpha} = 0" alt="\inf F_{\alpha} = 0" src="http://s.wordpress.com/latex.php?latex=%5Cinf%20F_%7B%5Calpha%7D%20%3D%200&amp;bg=ffffff&amp;fg=000000&amp;s=0" />. That is, for any <img title="\epsilon&gt;0" alt="\epsilon&gt;0" src="http://s.wordpress.com/latex.php?latex=%5Cepsilon%3E0&amp;bg=ffffff&amp;fg=000000&amp;s=0" />, there is an <img title="n\in I\!\!N" alt="n\in I\!\!N" src="http://s.wordpress.com/latex.php?latex=n%5Cin%20I%5C%21%5C%21N&amp;bg=ffffff&amp;fg=000000&amp;s=0" /> with <img title="[n\alpha]&lt;\epsilon" alt="[n\alpha]&lt;\epsilon" src="http://s.wordpress.com/latex.php?latex=%5Bn%5Calpha%5D%3C%5Cepsilon&amp;bg=ffffff&amp;fg=000000&amp;s=0" />.  (Hint:  Use pigeonhole principle to show that two fractional parts must be close, then subtract them.)</li>
+<li>For any irrational number <img title="\alpha" alt="\alpha" src="http://s.wordpress.com/latex.php?latex=%5Calpha&amp;bg=ffffff&amp;fg=000000&amp;s=0" />, the set <img title="F_{\alpha}" alt="F_{\alpha}" src="http://s.wordpress.com/latex.php?latex=F_%7B%5Calpha%7D&amp;bg=ffffff&amp;fg=000000&amp;s=0" /> is \df{dense} in the interval <img title="[0,1]" alt="[0,1]" src="http://s.wordpress.com/latex.php?latex=%5B0%2C1%5D&amp;bg=ffffff&amp;fg=000000&amp;s=0" />. That is, for any reals <img title="{x\in[0,1]}" alt="{x\in[0,1]}" src="http://s.wordpress.com/latex.php?latex=%7Bx%5Cin%5B0%2C1%5D%7D&amp;bg=ffffff&amp;fg=000000&amp;s=0" /> and <img title="\epsilon&gt;0" alt="\epsilon&gt;0" src="http://s.wordpress.com/latex.php?latex=%5Cepsilon%3E0&amp;bg=ffffff&amp;fg=000000&amp;s=0" />, there is an <img title="n\in I\!\!N" alt="n\in I\!\!N" src="http://s.wordpress.com/latex.php?latex=n%5Cin%20I%5C%21%5C%21N&amp;bg=ffffff&amp;fg=000000&amp;s=0" /> such that <img title="{|x-[n\alpha]|&lt;\epsilon}" alt="{|x-[n\alpha]|&lt;\epsilon}" src="http://s.wordpress.com/latex.php?latex=%7B%7Cx-%5Bn%5Calpha%5D%7C%3C%5Cepsilon%7D&amp;bg=ffffff&amp;fg=000000&amp;s=0" />.</li>
+</ol>
+<p>One way to generate pseudo-random numbers is to take the fractional parts of integer multiples of an irrational number.</p>]]></content><category>assn4 (10Oct)</category></question><question><title>Induction 1: Can you sum the numbers 1 to n?</title><content><![CDATA[For $n \ge 0[/latex], can you show that [latex]1 + 2 + 3 + \cdots + n = n (n + 1) / 2$?
+Stating the same thing with a recursive definition instead of ellipses: Let $S_0=0[/latex], and for integers [latex]n &gt; 0[/latex] define [latex]S_n = n+S_{n-1}$.
+Prove by induction that $S_n = {n(n+1)}/2$.
+Finally, stating the same thing with summation notation, prove that $\sum _ {0\le i\le n} i = \frac{n(n+1)}{2}. $
+I urge you to follow the template; there are many example proofs on the web that are not always careful about where they start, or about use of $n[/latex] and [latex]k$, or that they are proving a `for all&#039; statement.]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 2: Can you sum the first n odd integers?</title><content><![CDATA[Can you show that the first $n[/latex] odd integers sum up to [latex]n^2$?
+For integers $n[/latex], show [latex]\forall n\ge 0[/latex] that [latex]1 + 3 + 5 + \cdots + 2n-1 = n^2$
+In summation notation, show that $\sum_{1\le i \le n} 2i-1 = n^2.$]]></content><category>assn5 (24Oct)</category></question><question><title>Any hints for using NOT to make a smaller formula?</title><content><![CDATA[Using the half adders? Anything that we should maybe think about when attempting the problem?]]></content><category>mid1 (24Sep)</category></question><question><title>Can you use the definition of mod to prove these properties of mod? (3)</title><content><![CDATA[<p>Mod is defined as x mod y=x-y?x/y?<br /> Suppose that c, d,N ? Z with N?0, can you convince yourself that<br /> these are true?</p>
+<p>1. (c + d) mod N =((c mod N)+(d mod N))mod N.<br /> 2. cd mod N =((c mod N)(d mod N))mod N.<br /> 3. if c, d&gt;=0 then c^d mod N = (c mod N)^d mod N. </p>
+<p><em><span style="color: #993300;"><strong>JSS</strong>:  Number 3 needs induction on d, so hold off on that one.</span></em></p>]]></content><category>assn4 (10Oct)</category></question><question><title>Induction 4: Can you sum the first n cubes?</title><content><![CDATA[Is the sum of the first $n[/latex] cubes equal to the square of the sum of the first [latex]n$ natural numbers?
+Show that:
+$1^3+ 2^3+ 3^3+ \cdots + n^3= (1 + 2 + 3 + \cdots + n)^2$
+Define notation to avoid the ellipses: either by summation $\Sigma$ or
+recursive definition of prefix sums. You may get the value
+of the right hand side from Excercise 9.1 in the book.]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 5: Can you sum an arithmetic series?</title><content><![CDATA[An arithmetic series $a _ 1, a _ 2, \ldots , a _ n[/latex] is a series in which the differences between consecutive terms are the same: [latex]\exists d, \forall 1\le i &lt; n, a _ {i+1} - a _ i = d$.
+Show that the sum of an arithmetic series with $n[/latex] terms is just [latex]n$ times the average of the first and last terms:
+$\sum_{1\le i\le n} a_i = n\frac{a_1+a_n}2.$]]></content><category>assn5 (24Oct)</category></question><question><title>Can you use the definition of mod to prove these properties of mod? (2)</title><content><![CDATA[<p>Mod is defined as x mod y=x-y?x/y?</p>
+<p>Suppose that <em>n,a,b,c,d ? Z</em> with  n?0; can you convince yourself that<br /> these are true?</p>
+<p>1. Show that if <em>a</em> mod <em>n</em> = <em>b</em> mod <em>n</em> and  <em>m|</em><em>n</em> then <em>a </em>mod <em>m</em> = <em>b </em>mod <em>m</em></p>
+<p><em>NT: Is this meant to say: "Show that if a mod n = b mod n and m|n then a mod <strong>m</strong> = b mod <strong>m</strong>?" <span style="color: #993300;">JSS: thanks, NT.</span></em><br /> 2. Show that if <em>a</em> mod <em>n</em> = <em>b</em> mod <em>n</em> and  c&gt;0,then (<em>ca</em>) mod <em>n</em> = (<em>cb</em>)mod <em>n</em></p>
+<p><em>NT: Is this meant to say: "Show that if a mod n = b mod n and c &gt; 0, then (ca) mod n = (cb) mod <strong>n</strong>?"</em></p>
+<p>3. Show that if <em>a</em> mod <em>n</em> = <em>b</em> mod <em>n</em> and  exists d?Z<sup>+</sup> such that d|a and d|b and d|n then a/d mod (n/d) = b/d mod (n/d)</p>]]></content><category>assn4 (10Oct)</category></question><question><title>Induction 11: Can you use Euro 2 and 5 cent coins to make any value &gt;3?</title><content><![CDATA[Can euro 2 and 5 cent coins make any value greater than 3?
+For all $n \ge 4[/latex], show that there exist non-negative integers [latex]h[/latex] and [latex]k[/latex] such that [latex]2h + 5 k = n$.
+&nbsp;
+Warning: Be careful not to re-use $k$ in the induction proof; you&#039;ll want to rename either this variable or the one we use in the induction template.]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 17: Should you break a chocolate bar into pieces the long or short way?</title><content><![CDATA[<p>Does breaking a chocolate bar the long way or the short way minimize the number of breaks?</p>
+<p><img style="float: right;" alt="chocolate bar" src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Bar_of_Guittard_chocolate.jpg/150px-Bar_of_Guittard_chocolate.jpg" width="150" height="113" /></p>
+<p>Suppose that you have a chocolate bar made up of $n[/latex] squares by [latex]k$ squares that you want to share. At each step, you choose a piece of chocolate that has more than two squares and snap it in two along any line, vertical or horizontal. Eventually, it will be reduced to single squares.</p>
+<p>Show by induction that the number of snaps required to reduce it to single squares is $nk-1$.</p>]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 18: Can you determine the result from repeated squaring and summing digits?</title><content><![CDATA[<p>Think of a number, square it, write it down in base 10, and add up the digits. For example, $13^2=169 \to 16[/latex]. Repeat until you get into a cycle, e.g., [latex]16^2=256\to 13$.</p>
+<p>Show that every integer reduces to one of three cycles.</p>
+<p>Can you also figure out which cycle a number will end at without going through the cycles?</p>
+<p><span style="color: #993300;">JSS: Sarah&#039;s proof is based on a claim (which she checks with a program) that for all integers n&gt;17, the sum of the digits of n<sup>2</sup> &lt; n.  Can someone add an answer to prove that?  (You can choose to do it with or without induction.)</span></p>]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 6: Can you sum a geometric series?</title><content><![CDATA[A geometric series $a _ 1, a _ 2, \ldots , a _ n$ is a series in
+which the ratios between consecutive terms are the same: $\exists r, \forall 1\le i &lt; n, a _ {i+1} = r a _ i $.
+Show that the sum of an geometric series with $n$ terms is the following combination of first and last terms:
+$\sum_{1\le i\le n} a_i = \frac{a_1-ra_n}{1-r}.$]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 10: For what integers n is n^2 ? 2^n?</title><content><![CDATA[<p>For what integers $n[/latex] is [latex]n^2 \le 2^n$?</p>
+<p>You&#039;ll have to do a few base cases, then induction can take over.</p>]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 7: What is the decimal number equal to a string of n ones in binary?</title><content><![CDATA[What is the value of the binary number that is a string of $n$ ones?
+Define $S _ 0 = 0[/latex] and for [latex]n&gt;0[/latex], define [latex]S _ n = 2S _ {n-1}+1[/latex]. Show that [latex]S _ n = 2^n-1$.
+&nbsp;
+Here we can do an induction to establish what is called a closed form
+for the value of a sequence that we defined recursively. Closed form
+means we don&#039;t have to look at other terms, or do calculations like
+summations with many terms.]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 3: Can you sum the first n squares?</title><content><![CDATA[What is the sum of the first $n$ squares?
+For all integers $n\ge 0[/latex], prove that [latex]1^2 + 2^2 + 3^2 + \cdots + n^2 = n (n + 1) (2n + 1)/ 6$.
+In summation notation, show that $\sum_{0\le i \le n} i^2 = \frac{n (n + 1) (2n + 1)}{6}.$
+&nbsp;
+Try to use the induction template to make sure you handle the $n$s
+and $k$s in a correct manner. There is nothing magical about those
+variable names, but good habits help us to be correct without thinking
+hard.]]></content><category>assn5 (24Oct)</category></question><question><title>Can you use the definition of floor and ceiling to prove these properties of floor and ceiling? (3)</title><content><![CDATA[<p>The definition of floor and ceiling are:<br /> $\lceil x \rceil=\min\{ n \in Z| n \ge x\}[/latex]<br /> [latex]\lfloor x \rfloor=\max \{ m\in Z| m \le x\} $</p>
+<p>Can you prove the following properties of floor and ceiling using the definitions?</p>
+<p>1. Show that $\lfloor x\rfloor+\lceil -x \rceil=0[/latex]<br /> 2. Show that [latex]\lceil \lceil x \rceil \rceil=\lceil x \rceil[/latex]<br /> 3. Show that if [latex]x&gt;y[/latex] then [latex]\lfloor x\rfloor\ge\lfloor y\rfloor$</p>]]></content><category>assn4 (10Oct)</category></question><question><title>Induction 14: What is wrong with Polya's classic proof that all horses are the same color?</title><content><![CDATA[What is wrong with Polya&#039;s classic proof that all horses are the same color?
+I&#039;d suggest rewriting this to follow my template and see if that clarifies what goes wrong.
+&nbsp;
+CLAIM: In any set of $h$ horses, all horses are the same color.
+&nbsp;
+<em>FaultyProof</em> by Induction on $h$.
+&nbsp;
+Base: For $h = 1$. In any set containing just one horse, all horses clearly are the same color.
+&nbsp;
+Induction Step: For $k\ge 1[/latex] assume that the claim is true for [latex]h = k[/latex] and prove that it is true for [latex]h = k+1$.
+&nbsp;
+Take any set $H[/latex] of [latex]k+1[/latex] horses. We show that all the horses in this set are the same color. Remove one horse from this set to obtain the set [latex]H _ 1[/latex] with just [latex]k[/latex] horses. By the induction hypothesis, all the horses in [latex]H _ 1[/latex] are the same color. Now replace the removed horse and remove a different one to obtain the set [latex]H _ 2[/latex]. By the same argument, all the horses in [latex]H _ 2[/latex] are the same color. Therefore, all the horses in [latex]H$ must be the same color, and the proof is complete.]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 12: Is n^3 + 2 n always divisible by 3?</title><content><![CDATA[Prove by induction that for all non-negative integers $n[/latex], the number [latex]n^3 + 2 n$ is divisible by 3.
+&nbsp;
+Recall that integer $a[/latex] is divisible by [latex]d[/latex] if there exists an integer [latex]m[/latex] such that [latex]a = md$.]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 16: Can you show that _not_ and _and_ suffice to express all logic formulae?</title><content><![CDATA[Can you show that <em>not</em> and <em>and</em> suffice to express all logic formulae?
+Consider a well-formed logical formula (wff), using the operations of negation, $\rightarrow [/latex], [latex]\vee[/latex] , and [latex]\wedge [/latex] and full parentheses. The set of all wffs can be defined recursively: A logical variable is a wff, and if [latex]f [/latex] and [latex]g [/latex] are wffs, then the following four statements are also wffs: [latex](\overline{g}) [/latex], [latex](f\rightarrow g) [/latex], [latex](f\vee g) [/latex], and [latex](f\wedge g) $.
+Prove, using mathematical induction on the length of a wff, that for any wff there is a logically-equivalent wff using only the operations of negation and $\wedge $ and parentheses.]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 20: I'm thinking of a number. Can you determine the best guessing strategy?</title><content><![CDATA[Can you show that the number guessing game has a worst case of exactly $\lceil\log_2 n\rceil$ guesses?
+&nbsp;
+I&#039;m thinking of a natural number $x[/latex] between 1 and [latex]n[/latex]. You can ask questions of the form, ``Is [latex]x[/latex] larger than [latex]a[/latex]?&#039;&#039; and I will tell you (truthfully) yes or no. Show that, in the worst case, [latex]\lceil\log_2 n\rceil$ questions are necessary and sufficient to exactly determine my number.
+&nbsp;
+For sufficiency, you may want to argue that you can round $n[/latex] up to the next power of 2 to make your proof easier: e.g., new [latex]n=2^{\lceil\log_2 n\rceil}$.
+&nbsp;
+To show that this many are necessary is harder, you have to imagine that you are the one picking the number, but you keep your options open until the guesser starts asking questions.]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 13: Can you establish the invariants of the mediant algorithm?</title><content><![CDATA[Prove this lemma  from the book:
+Lemma 7.3.1. The following are invariants of generating mediants starting from ( 1/0, 0/1, 1/0):
+1. For adjacent fractions a/b &lt;c/d, we have bc - ad = 1.
+2. Except for the initial 1/0 and 1/0, all denominators are positive]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 22: Can you win at two-pile Nim?</title><content><![CDATA[Nim is a simple two players game with two stacks of chips, matches, or other counters. At each turn, a player removes some (non-zero) number of counters from one of the stacks. In this variant, the player who removes the last match wins.
+&nbsp;
+If the two piles contain the same number of matches at the start of the game, show that the second player can always win with the following strategy: always take the same number of matches that your opponent took, but from the other pile.]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 24: Can you circle a block in the town of Arrangement?</title><content><![CDATA[In the city of Arrangement, the old city wall has been replaced by a
+one-way ring road, and all other roads are one way, starting and
+ending on the ring road. Show that there must be some "block&#039;&#039; that you
+can legally circle, respecting the one-way arrows. (Block&#039;s in Arangement may have odd shapes, but
+have no roads through them.)]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 25: How will the oldest pirate propose to split the coins?</title><content><![CDATA[Ten pirates are going to split 100 coins.
+The pirates have a strict seniority. The oldest makes a proposal to split to loot, and if it
+acceptable to half the pirates, including himself, then that is how they split the gold.
+If not, the remaining pirates make the proposer walk the plank.
+Pirates are smart, greedy, and bloodthirsty:
+each has first priority of staying alive,
+second of getting as most money as possible, and
+third of making others walk the plank if it doesn&#039;t conflict with first or second priority.
+<ol>
+	<li>What should the oldest propose to get the most money?</li>
+	<li>Does the proposal change if the proposer is not allowed to vote? (That is, if the proposal needs a strict majority to accept?)</li>
+</ol>]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 26: Can you prove the Fundamental Theorem of Arithmetic?</title><content><![CDATA[<p>Using properties of primes from the Math Review chapter prove the ``Fundamental Theorem of Arithmetic,&#039;&#039; that every integer $n&gt;1$ can be written as the product of one or more primes in an increasing sequence in exactly one way (up to order).</p>
+<p>Initially, to make this easier, drop the "in exactly one way,&#039;&#039; and just show that every integer $n&gt;1$ can be written as a product of primes.</p>
+<p>&nbsp;</p>
+<p>Once you can do that, prove the full version.  You&#039;ll want the first property of prime divisors<a title="Can you use the definition of divides to establish properties of divides? (2)" href="http://comp283f13.web.unc.edu/questions/can-you-use-the-definition-of-divides-to-establish-properties-of-divides-2/"> linked here</a>.</p>]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 28: Can you prove the Pigeonhole Principle by induction?</title><content><![CDATA[<p>Prove the Pigeonhole Principle by mathematical induction:<br /> That is, show that for all integers $n\ge 1 [/latex], for all sets [latex]A [/latex] of [latex]n+1$<em></em></p>
+<p>elements, all sets $B [/latex] of [latex]n[/latex] elements, and all functions [latex]f\colon A\to B $,</p>
+<p>there exist elements $a _ 1,a _ 2\in A [/latex], with[latex]a _ 1\ne a _ 2 [/latex], such that [latex]f(a _ 1)=f(a _ 2) $.</p>]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 33: What happens to a lamb among lions?</title><content><![CDATA[<p><img style="float: right;" alt="lion and lamb" src="http://perfecthealthdiet.com/wp/wp-content/uploads/2010/11/Lion-and-lamb-cartoon-corrected1-1024x768.jpg" width="256" height="192" />A lamb wanders into an enclosure of <em>n</em> lions.  What happens?</p>
+<p>The lions in the enclosure are hungry, vicious, and solitary,  so each would gladly kill and eat the lamb, and none would cooperate or share.  They are also intelligent and value self-preservation above all.  They know from their feeding rotation that after eating they need a nap, and are vulnerable to the other lions while asleep.  (This is why their keeper takes them one-at-a-time into the small feeding enclosure, where a lion can eat and nap before he returns to the main enclosure.)</p>
+<p>Does the lamb get eaten by the nearest of the <em>n</em> lions?  Does the answer depend on <em>n</em>?</p>
+<p><span style="color: #993300;"><em>JSS: the first four proofs posted here are very similar, and (IMNSHO) all are wrong. Let me add one with a different conclusion.</em></span></p>
+<p><span style="color: #339966;">MH: I think it might be helpful to note that when the prompt says that a lion is "vulnerable" to other lions while asleep, it means that other lions will ATTACK AND EAT A SLEEPING LION. I didn&#039;t pick that up the first read through, and that&#039;s a pretty important part of this problem. <br /><em><span style="color: #993300;">JSS: one purpose of proof is to reveal which assumptions are being made. Each of the proofs here is based on the assumption that a sleeping lion may be attacked, so that seems to have been the common understanding.  That the attacker of a sleeping lion will itself eat and sleep is my assumption. (If you don&#039;t make that assumption, then there is no need for induction, which is why so many of the proofs initially here had the form of induction, but didn&#039;t use the IH.)</span> </em>  </span></p>
+<p>----possible rewording---</p>
+<p>The lions in the enclosure are hungry, vicious, and solitary,  so each would gladly kill and eat the lamb (or any sleeping lion), and none would cooperate or share. They are also intelligent and value self-preservation above all.  Each know that after it kills and/or eats it needs a nap, and is vulnerable to other lions while asleep.  (The lion keeper feeds one at a time in a small side enclosure, where the fed lion can safely nap before returning to the main enclosure.)</p>]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 21: Can some car complete the race circuit?</title><content><![CDATA[Suppose there are $n$ identical cars stopped on a circular track, and
+that the total gas in all tanks is enough for one car to make it
+around the track (even if it had to stop and start $n$ times.) Show
+that there is at least one car that can make it around if it siphons
+all the gas from each of the stopped cars it passes.
+&nbsp;
+I suggest trying to prove the statement "For any n cars on a racetrack, if the total gas in all cars is enough to complete a circuit of the track, then there exists a car that can complete the circuit by siphoning gas from cars it passes."  By mentioning the gas in the statement, you are more likely to have a correct proof.]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 19: Can you count how many ways to make a 2xn rectangle from dominoes?</title><content><![CDATA[In how many ways can you make a $2\times n$ rectangle with dominoes?
+Dominoes, spots down, are $2\times 1[/latex] rectangles, or [latex]1\times 2[/latex] if rotated. How many ways can you make a [latex]2\times n[/latex] rectangle for different values of [latex]n[/latex]? For small values of [latex]n$, the answers are:
+[latex]\begin{array}{cccc}
+n&amp; 1&amp; 2&amp; 3\\
+\#&amp; 1&amp; 2&amp; 3\\
+\end{array}[/latex]
+But this pattern does not continue...]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 15: Can you find the flaw in this proof that a^n = 1?</title><content><![CDATA[What is wrong with this induction proof that $a^n=1$ always?
+&nbsp;
+Claim: Let $a[/latex] be any positive number. For all positive integers [latex]n$, we have a
+$a^{n-1} = 1$.
+&nbsp;
+<em>FaultyProof</em> by induction on $n$
+&nbsp;
+Basis: If $n = 1[/latex], we have [latex]a^{n-1}= 1[/latex]. [latex]\checkmark$
+&nbsp;
+Inductive Step: We want to prove this for an integer $n&gt;1$.
+&nbsp;
+Inductive Hypothesis: Assume, for all natural numbers $k&lt;n[/latex], that [latex]a^{k-1}= 1$.
+&nbsp;
+We now want to show that it is true for $n$ by writing
+$a^{n-1} = \frac{a^{n-2}\cdot a^{n-2}}{a^{n-3}}, [/latex]since [latex]n-1 = (n-2)+(n-2) - (n-3)[/latex]. But if we use the inductive hypothesis twice, for [latex]k=n-1[/latex] and [latex]k=n-2[/latex], we can replace [latex]a^{n-2}=1[/latex] and [latex]a^{n-3}=1$,
+so $a^{n-1} = \frac{1\cdot1}{1} = 1.$]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 37: Can you show this property of digit sums?</title><content><![CDATA[<p>Let&#039;s define the repeated digit sum, or RDS(n) as the function that sends natural numbers to [0..9] by summing their digits in base 10 repeatedly until the result is in [0..9].   That is, RDS(1) = 1, RDS(11) = 2, RDS(1234) = RDS(10) = 1.</p>
+<p>We could write a recursive definition of this function, if that would make it more clear.  Define RDS: ? ? ? :</p>
+<ol>
+<li>Base: For a single digit d in [0..9], RDS(d)=d.</li>
+<li>Rec. Rule: for a natural number A*10+d, with A in [1..?) and d in [0..9], RDS( A*10+d)= RDS(RDS(A)+d).</li>
+</ol>
+<p>Prove that for all $a,b\in \mathbb{N}$, RDS(a*b) = RDS(RDS(a)*RDS(b)).</p>]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 38: Can you prove that this algorithm based on Horner's rule correctly evaluates a polynomial?</title><content><![CDATA[<p>The usual definition of a polynomial with coefficients <em>a<sub>0</sub>, a<sub>1</sub>, ..., a<sub>k</sub></em> is $p(x)=\sum_{0\le i \le k} a_ix^i$.</p>
+<p>Assuming that the arithmetic operations are performed correctly, show that the following simple algorithm correctly calculates <em>p(x)</em> for a given <em>x</em> and coefficients.</p>
+<p><strong>Input</strong>: real numbers <em>x</em>, and coefficients <em>a<sub>0</sub>, a<sub>1</sub>, ..., a<sub>k<br /> </sub></em><strong>Desired output</strong>: p(x)<br /> <strong>Invariant</strong>: You will want to find an invariant for what <em>value</em> holds at each iteration of the for loop, and do induction.</p>
+<p><em>value = a<sub>k<br /> </sub></em>for<em> i </em><del></del><em> from k downto 1<br /> .    value = x*value + a<sub>i-1</sub></em></p>
+<p><em> </em></p>]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 34: Can you show that n^2 + n + 41 is prime for n=0,1,2...?</title><content><![CDATA[<p>I just learned a remarkable formula that generates primes:  n<sup>2 </sup>+ n + 41 is prime for natural numbers n= 0,1,2...<br /> Check a few numbers:  (I used matlab&#039;s  factor command and checked the first 40 natural numbers.)</p>
+<table border="0">
+<tbody>
+<tr>
+<td align="center">0</td>
+<td align="center">1</td>
+<td align="center">2</td>
+<td align="center">3</td>
+<td align="center">4</td>
+<td align="center">5</td>
+<td align="center">6</td>
+<td align="center">7</td>
+<td align="center">8</td>
+<td align="center">9</td>
+<td align="center">10</td>
+<td align="center">11</td>
+</tr>
+<tr>
+<td align="center">41</td>
+<td align="center">43</td>
+<td align="center">47</td>
+<td align="center">53</td>
+<td align="center">61</td>
+<td align="center">71</td>
+<td align="center">83</td>
+<td align="center">97</td>
+<td align="center">113</td>
+<td align="center">131</td>
+<td align="center">151</td>
+<td align="center">173</td>
+</tr>
+</tbody>
+</table>
+<p>Here is my proof by induction.  Do you believe it?<br /> Is this related to 42 being the answer to the ultimate question?</p>
+<table style="width: 90%;" border="0" align="left">
+<tbody>
+<tr>
+<td>1.</td>
+<td>I want to show $\forall n\in\mathbb{N}$ that <em>n<sup>2 </sup>+ n +</em> 41 is prime.</td>
+<td> </td>
+</tr>
+<tr>
+<td>2.</td>
+<td>I&#039;ll do this by induction on <em>n</em>.</td>
+<td> </td>
+</tr>
+<tr>
+<td>3.</td>
+<td>Base case: n=0:  41 is prime.   n=1:  1<sup>2 </sup>+ 1 + 41 + 43 is also prime.</td>
+<td>verified by factoring</td>
+</tr>
+<tr>
+<td>4.</td>
+<td>Ind Step: Given some n&gt;1, we may assume</td>
+<td>do generic n</td>
+</tr>
+<tr>
+<td>5.</td>
+<td>  Ind Hyp: for all 0 &lt;= k &lt;= n, that <em>k<sup>2 </sup>+ k +</em> 41 is prime.</td>
+<td> Induction Hypothesis</td>
+</tr>
+<tr>
+<td>6.</td>
+<td>  and I want to show it true for k+1.</td>
+<td> </td>
+</tr>
+<tr>
+<td>7a</td>
+<td>     By the IH, we know that  <em>n<sup>2 </sup>+ n +</em> 41 is prime.</td>
+<td> line 5</td>
+</tr>
+<tr>
+<td>7b</td>
+<td>     Choose n=k+1, and plug in to see that (<em>k</em>+1)<em><sup>2 </sup>+ </em>(<em>k</em>+1) <em>+</em> 41 is prime.</td>
+<td> substitution</td>
+</tr>
+<tr>
+<td>8.</td>
+<td> Thus, for all natural numbers<em> n</em>,   <em>n<sup>2 </sup>+ n +</em> 41 is prime.</td>
+<td> qed</td>
+</tr>
+</tbody>
+</table>]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 40: Can you show that the first player can win this M&amp;M game?</title><content><![CDATA[<p>Here is a tastier version of a <a title="Induction 22: Can you win at two-pile Nim?" href="http://comp283f13.web.unc.edu/questions/induction-22-can-you-win-at-two-stack-nim/">Nim-like game</a>.  Play with two piles of M&amp;Ms, or some other favorite candy or counter.  A move is to eat all the M&amp;Ms in one pile, then divide the remaining pile into two non-empty piles for the other player to move.  If, after eating one pile there is only one M&amp;M left, that person loses because they cannot complete their move.</p>
+<p>If the piles initially have n&gt;1 and m&gt;1 candies, determine who can force the win.  (Prove it by induction.)</p>]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 36: What happens to the islanders?</title><content><![CDATA[<p>From <a href="http://xkcd.com/blue_eyes.html">http://xkcd.com/blue_eyes.html</a></p>
+<p><span style="font-size: medium;">Blue Eyes:</span><br /> <span style="font-size: xx-small;">The Hardest Logic Puzzle in the World</span>A group of people with assorted eye colors live on an island. They are all perfect logicians -- if a conclusion can be logically deduced, they will do it instantly. No one knows the color of their eyes. Every night at midnight, a ferry stops at the island. Any islanders who have figured out the color of their own eyes then leave the island, and the rest stay. Everyone can see everyone else at all times and keeps a count of the number of people they see with each eye color (excluding themselves), but they cannot otherwise communicate. Everyone on the island knows all the rules in this paragraph.</p>
+<p>On this island there are 100 blue-eyed people, 100 brown-eyed people, and the Guru (she happens to have green eyes). So any given blue-eyed person can see 100 people with brown eyes and 99 people with blue eyes (and one with green), but that does not tell him his own eye color; as far as he knows the totals could be 101 brown and 99 blue. Or 100 brown, 99 blue, and he could have red eyes.</p>
+<p>The Guru is allowed to speak once (let&#039;s say at noon), on one day in all their endless years on the island. Standing before the islanders, she says the following:</p>
+<p><strong>"I can see someone who has blue eyes."</strong></p>
+<p>Who leaves the island, and on what night?</p>
+<p>There are no mirrors or reflecting surfaces, nothing dumb. It is not a trick question, and the answer is logical. It doesn&#039;t depend on tricky wording or anyone lying or guessing, and it doesn&#039;t involve people doing something silly like creating a sign language or doing genetics. The Guru is not making eye contact with anyone in particular; she&#039;s simply saying "I count at least one blue-eyed person on this island who isn&#039;t me."</p>
+<p>And lastly, the answer is not "no one leaves."</p>
+<p>----------------</p>
+<p><span style="font-size: xx-small;">Terry Tao discusses a much more vicious version: </span></p>
+<p><span style="font-size: xx-small;">There is an island upon which a tribe resides. The tribe consists of 1000 people, with various eye colours. Yet, their religion forbids them to know their own eye color, or even to discuss the topic; thus, each resident can (and does) see the eye colors of all other residents, but has no way of discovering his or her own (there are no reflective surfaces). If a tribesperson does discover his or her own eye color, then their religion compels them to commit ritual suicide at noon the following day in the village square for all to witness. All the tribespeople are highly logical and devout, and they all know that each other is also highly logical and devout (and they all know that they all know that each other is highly logical and devout, and so forth).  ["Highly logical" means that any conclusion that can logically deduced from the information and observations available to an islander, will automatically be known to that islander.]</span></p>
+<p><span style="font-size: xx-small;">Of the 1000 islanders, it turns out that 100 of them have blue eyes and 900 of them have brown eyes, although the islanders are not initially aware of these statistics (each of them can of course only see 999 of the 1000 tribespeople).</span></p>
+<p><span style="font-size: xx-small;">One day, a blue-eyed foreigner visits to the island and wins the complete trust of the tribe.</span></p>
+<p><span style="font-size: xx-small;">One evening, he addresses the entire tribe to thank them for their hospitality.</span></p>
+<p><span style="font-size: xx-small;">However, not knowing the customs, the foreigner makes the mistake of mentioning eye color in his address, remarking “how unusual it is to see another blue-eyed person like myself in this region of the world”.</span></p>
+<p><span style="font-size: xx-small;">What effect, if anything, does this <em>faux pas</em> have on the tribe?</span></p>]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 39: Can you determine who is a celebrity, if any, with few questions?</title><content><![CDATA[<p>In a group of n people, a <em>celebrity</em> is a person who everyone else knows, but who doesn&#039;t know anyone else.</p>
+<p>Lets write $aKb[/latex] iff <em>a</em> knows <em>b</em>, and [latex]a\not\!\! K b[/latex] iff <em>a</em> does not know <em>b.  </em>So [latex]c\in[1..n][/latex] is a celebrity iff [latex]\forall a\in[1..n],\; (a=c)\vee (aKc\wedge c\not\!\!Ka)$.  Can a group have more than one celebrity?</p>
+<p>You are an outsider, sent by a news agency, to identify if there is a celebrity at a party of n people.  You want to ask people if they know specific other people, but don&#039;t want to annoy and get kicked out, so you want to ask few questions.   There are, of course, (<em>n</em>-1) possible questions per person, for a total of <em>n</em>(<em>n</em>-1).  How few questions do you need to ask to guarantee that you can always identify and confirm the identity of a celebrity, if one exists?  (You cannot ask one person "Do you know anyone here?&#039; without asking them n-1 questions, which is sure to get you kicked out.)</p>
+<p>I suggest working the room in two phases: first, start by assuming<br /> that anyone could be a celebrity, and ask questions that try to rule<br /> people out.  Then, when you have single candidate, ask questions to<br /> confirm.</p>
+<p>You should be able to use induction to obtain a strategy in which each person, with one possible exception, need be asked at most two questions.</p>
+<p>&nbsp;</p>
+<p>No pressure, but your job depends on getting the right answer, so you<br /> must be correct, and want to ask the smallest number of questions possible...</p>]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 31; Can you represent numbers as sets?</title><content><![CDATA[<p>An interesting recursive way to represent every non-negative integer $n[/latex] as a set [latex]S_n$ is the following:</p>
+<ul>
+<li>Base: $S_0=\emptyset$ represents 0.</li>
+<li>Recursive rule: For $n&gt;0[/latex], let [latex]S_n=S_{n-1} \cup\{S_{n-1}\}$ represent <em>n</em>.</li>
+<li>Closure: All sets representing integers come from the base case, by a finite number of applications of the recursive rule.</li>
+</ul>
+<div> </div>
+<ol>
+<li>Show that $S_n[/latex] has [latex]n$ elements.</li>
+<li>Show that $i&lt;j[/latex] iff [latex]S_i\subsetneq<br /> S_j[/latex], that is, [latex]S_i[/latex] is a proper subset of [latex]S_j$.</li>
+<li>Show that for $S_i[/latex] and [latex]S_j[/latex] we have three choices: either [latex]S_i\subsetneq S_j[/latex], [latex]S_i=S_j[/latex], or [latex]S_j\subsetneq S_i $.</li>
+<li>Recursively define functions for addition and multiplication.</li>
+</ol>
+<p><span style="color: #ff0000">NT: Bonus Round! Can you find another way to represent numbers as sets such that there is a one-to-one correspondence between:</span></p>
+<p><span style="color: #ff0000">a) The set of non-negative integers</span></p>
+<p><span style="color: #ff0000">b) The set S defined by:</span></p>
+<p><span style="color: #ff0000">Base: The empty set {} is in S</span></p>
+<p><span style="color: #ff0000">Recursive Rule: If every element of x is in S, x is in S.</span></p>
+<p><span style="color: #ff0000">Closure: Only sets derived from the base case by a finite number of applications of the recursive rule are in S.</span></p>
+<p><span style="color: #ff0000">Find such a correspondence and prove it&#039;s one-to-one! (It exists; I was very bored one weekend.)</span></p>]]></content><category>assn5 (24Oct)</category></question><question><title>Is there a template for the induction proof 8-step framework?</title><content><![CDATA[<p>See the induction chapter in the book.  I recommend this strong induction framework, even if you previously learned weak induction.  You can complete this template.</p>
+<p>&nbsp;</p>
+<div>
+<div>
+<table border="0" align="left">
+<tbody>
+<tr>
+<td> </td>
+<td>Given  (any givens needed?)</td>
+<td>given</td>
+</tr>
+<tr>
+<td>1.</td>
+<td>I want to show, for all   , that</td>
+<td> </td>
+</tr>
+<tr>
+<td>2.</td>
+<td>I prove this by induction on (induction parameter)</td>
+<td> </td>
+</tr>
+<tr>
+<td>3.</td>
+<td>Base case, for</td>
+<td>Check first value</td>
+</tr>
+<tr>
+<td>3a.</td>
+<td> </td>
+<td>Base case works.</td>
+</tr>
+<tr>
+<td>4.</td>
+<td>Inductive step, given a value of (ind param past base cases)</td>
+<td>generic value of induction variable</td>
+</tr>
+<tr>
+<td>5.</td>
+<td> We may assume, as an induction hypothesis, that<br /> for all   k from base up to, but not including, ind param</td>
+<td>Ind. Hypothesis, for all smaller values</td>
+</tr>
+<tr>
+<td>6.</td>
+<td> and we want to show</td>
+<td> for ind param.</td>
+</tr>
+<tr>
+<td>7a</td>
+<td> (do the proof, often by expanding the defn,</td>
+<td>defn of exponentiation</td>
+</tr>
+<tr>
+<td>7b</td>
+<td>               then applying the I.H. and doing algebra)</td>
+<td>property from 2</td>
+</tr>
+<tr>
+<td>7c</td>
+<td> </td>
+<td>defn of exponentiation</td>
+</tr>
+<tr>
+<td>8.</td>
+<td>This completes the inductive step, and the proof for all <em>(ind param)</em>.</td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div><a href="https://comp283f13.web.unc.edu/questions/can-you-use-the-definition-of-mod-to-prove-these-properties-of-mod-3/#answer-2586"> </a></div>
+</div>]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 32: Visit the all the cities served by One-way Airlines?</title><content><![CDATA[<p>One way Airlines has the peculiar strategy for the set <em>C</em> of all cities they serve:<br /> ${\forall a\ne b\in C}[/latex], they guarantee to fly at least one of the routes, [latex]{a\to b}[/latex] or [latex]{b\to a}$.</p>
+<p>As a loyal customer, you&#039;ve won their unlimited trip -- you may visit for free any sequence of cities along routes they fly, ${a\to b\to c\to \cdots}$, as long as you don&#039;t interrupt the chain or arrive in or depart from a city more than once.</p>
+<p>Can you visit all the cities of <em>C</em>?  Does it matter where you start?  </p>
+<p>Note that this will be a proof &#039;For all route maps on C cities&#039;, not just on the number of cities.</p>]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 41: What is this recursively defined function?</title><content><![CDATA[<p>Here is the recursive definition of a function $f\colon\mathbb{N}\to\mathbb{R}$:</p>
+<ol>
+<li>Base:  $f(1)=1$.</li>
+<li>Rec. rule: For even n&gt;1,  $f(n)=1+f(n/2)[/latex], and<br /> For odd n&gt;1,  [latex]f(n)=1+f((n-1)/2)$</li>
+</ol>
+<p>What is this function, and can you prove it?</p>]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 35: How many moves to solve the Towers of Hanoi?</title><content><![CDATA[<p><img style="float: right;" alt="towers of hanoi" src="http://1.bp.blogspot.com/-5iQo3dwpjpk/TrBQhS7N-0I/AAAAAAAAANQ/zAWobImeYW8/s320/Hanoi.gif" width="160" height="160" /></p>
+<p>The classic puzzle called the Towers of Hanoi consists of a board with three pegs and several disks of different diameters that fit over the pegs. In the starting position all the disks are in place on one peg, arranged in order of decreasing diameter from bottom to top. A move is made by lifting the top disk off a peg and placing it on another peg so that there is no smaller disk beneath it. The object of the puzzle is to transfer all the disks from one peg to another. Prove by induction that if the number of disks is <em>n</em>, the puzzle can be solved in $ 2^n - 1$ moves.</p>]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 43: Prove this is a fair division of the cake?</title><content><![CDATA[<p>There are <em>n</em> people dividing a cake.  Each wants to get his or her &#039;fair share&#039; of 1/<em>n</em> th of the cake (and maybe a bit more).  But of course, some want more icing, some like the candies, some try to avoid the edge---each may have a different idea of what they would most like as their 1/<em>n</em> th of the cake.</p>
+<p>So they agree do divide as follows: the oldest starts moving the knife slowly above the cake from one end.  If any younger one says, "Stop," then that end is cut off and given to the speaker.  The knife-wielder can also decide to stop and cut their own piece.  Prove by induction that each person goes away satisfied that they got 1/<em>n</em> of the cake.  </p>
+<p>Note: you probably don&#039;t want <em>n</em> to be the induction parameter, since the desired fraction of cake doesn&#039;t change with the number of people remaining.  </p>]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 42: Can you show these numbers are in [1,2)?</title><content><![CDATA[<p>Here is a recursively defined set <em>S</em> of real numbers:</p>
+<ol>
+<li>Base: One is in S: $1 \in S$.</li>
+<li>Rec rule:  Square roots of sums and products of numbers in S are in S:<br /> if ${x,y} \in S[/latex], then [latex]\sqrt{x+y} \in S[/latex] and  [latex]\sqrt{xy} \in S$.</li>
+<li>Closure: only numbers derived from the base case by a finite number of applications of the recursive rule are in <em>S</em>.</li>
+</ol>
+<p>Show that all numbers in S are within the half-open interval [1, 2).</p>]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 23: Can you always lay out A-K in a 2-suit, back-to-back deck?</title><content><![CDATA[Take the red cards (hearts and diamonds) from a deck, shuffle them, pair them up arbitrarily, then glue pairs back to back. Show that you can still lay out the pairs so that you&#039;ll see, face up: A, 2, 3, $\dots$, 10, J, Q, K. (Suits showing does not matter.)
+We can generalize to a $2n[/latex]-card deck, consisting of [latex]1\dots n$ of hearts and diamonds.
+Play with a 10 card deck (A..5) on scratch paper until the problem is clear.]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 29: Can you prove Fermat's little theorem by induction?</title><content><![CDATA[<p>Prove Fermat&#039;s little theorem, by induction on $m$:</p>
+<p>For all primes $p[/latex] and positive integers [latex]m[/latex], the exponential [latex]m^{p} \bmod p = m\bmod p$.</p>]]></content><category>assn5 (24Oct)</category></question><question><title>Induction 30: Can you prove the Chinese Remainder Theorem?</title><content><![CDATA[<p>Prove the Chinese remainder theorem:</p>
+<p>given integers $ n_1, n_2, \dots ,n_k[/latex] that are pairwise relatively prime (no two have a common factor) and have product [latex]N=\prod_{i\in [1..k]}n_i[/latex], show that any integer [latex]m\in[0,N)[/latex] is uniquely determined by its remainders [latex](m\bmod n_i)_{i\in[1..k]}$.</p>
+<p>&nbsp;</p>
+<p>You&#039;ll want to choose good notation, use induction on $k$, and use Lemma 7.3.2 within the induction step.</p>]]></content><category>assn5 (24Oct)</category></question></questions>
